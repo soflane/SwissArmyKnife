@@ -6,9 +6,7 @@ This is just a cheatsheet.
 
 Nmap with GUI (Graphical User Interface) : 
 
-[here]: https://nmap.org/download.html	"here"
-
-
+[here]: https://nmap.org/download.html
 
 
 
