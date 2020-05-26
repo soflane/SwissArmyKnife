@@ -2,11 +2,35 @@
 
 This is just a cheatsheet.
 
+[TOC]
+
 # Utilities
 
-Nmap with GUI (Graphical User Interface) : 
+## Network Tools
 
-[here]:(https://nmap.org/download.html)
+AdapterWatch (Interface lookup) : https://www.nirsoft.net/utils/awatch.html
+
+Advanced IP Scanner : https://www.advanced-ip-scanner.com/
+
+DHCP server : http://www.dhcpserver.de/cms/download/
+
+Nmap with GUI (Graphical User Interface) : https://nmap.org/download.html
+
+MobaXterm : 
+
+Wireless Key Viewer : https://www.nirsoft.net/utils/wireless_key.html
+
+Wireshark : https://www.wireshark.org/#download
+
+XShell : https://www.netsarang.com/en/xshell-download/
+
+Xftp : https://www.netsarang.com/en/xftp-download/
+
+
+
+
+
+
 
 
 
@@ -83,3 +107,22 @@ Cyclic trace that writes into 50 files of 64MB each, then starts rewriting in th
 tcpdump -n -i eth0 -s 1500 -W 50 -C 64 -w '[Output Files]'
 ```
 
+
+
+
+
+##### To sort : 
+
+https://github.com/HoffmannTom/outlookbackupaddin
+
+https://haveibeenpwned.com/
+
+
+
+#### More: 
+
+https://www.nirsoft.net/
+
+https://framasoft.org/
+
+https://www.kcsoftwares.com/
