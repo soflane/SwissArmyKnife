@@ -1,8 +1,7 @@
 # SwissArmyKnife
 
-This is just a cheatsheet.
+This is just a cheatsheet with usefull programs or online services. Feel free to check!
 
-- [SwissArmyKnife](#swissarmyknife)
 - [Windows Utilities](#windows-utilities)
   * [Network Tools](#network-tools)
   * [Disk management](#disk-management)
@@ -17,7 +16,7 @@ This is just a cheatsheet.
 - [Telephony related old shit](#telephony-related-old-shit)
   * [Converting IVR prompts](#converting-ivr-prompts)
 - [Android](#android)
-- [More at theses links :](#more-at-theses-links--)
+- [More at theses links](#more-at-theses-links)
 
 
 # Windows Utilities
@@ -72,7 +71,7 @@ This is just a cheatsheet.
 
 [MP3Tag](https://www.mp3tag.de/en/download.html) : 
 
-
+[OEM Info Tool](https://www.trishtech.com/oem-info-tool/)
 
 [MakeMkv](https://www.makemkv.com/) : Rip DVDs Into MKV files
 
@@ -95,6 +94,8 @@ This is just a cheatsheet.
 
 
 # Recovery & Diagnostics Live CDs 
+
+[Medicat](https://gbatemp.net/threads/medicat-usb-a-multiboot-linux-usb-for-pc-repair.361577/) : 
 
 # Online Tools
 
@@ -224,13 +225,15 @@ https://www.3cx.com/docs/converting-wav-file/
 
 
 
-# Android
+# Android	
 
 [Vanced](https://vancedapp.com/) : Youtube Vanced ([Git](https://github.com/YTVanced/))
 
+[Online SMS backup viewer](https://mattj.io/sms-backup-reader-2/main) : An online tool to view backups made by [SMS Backup & Restore](https://play.google.com/store/apps/details?id=com.riteshsahu.SMSBackupRestore)
 
 
-# More at theses links : 
+
+# More at theses links 
 
 [NirSoft Windows tools](https://www.nirsoft.net/)
 
