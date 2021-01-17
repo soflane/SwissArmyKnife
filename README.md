@@ -98,23 +98,21 @@ This is just a cheatsheet.
 
 # Online Tools
 
-Cipher list : 
+[Cipher list](https://cipherlist.eu/) : Strong Ciphers for Apache, nginx and Lighttpd
 
 [Have I Been pwned ](https://haveibeenpwned.com/)
 
-Deseat.me
+[Deseat.me](https://www.deseat.me/) :
 
-Draw.io
+[Draw.io](https://app.diagrams.net/)
 
-EcoIndex 
+[EcoIndex](http://www.ecoindex.fr/) 
 
 [NginxConfig](https://www.digitalocean.com/community/tools/nginx)
 
-Online JSON/XML viewer 
+Online JSON/XML viewer : [JSON](https://jsonformatter.org/json-parser)       [XML](https://codebeautify.org/xmlviewer)
 
 [Online PC Builder](https://pcpartpicker.com/list/) 
-
-OVH MANAGER
 
 
 
