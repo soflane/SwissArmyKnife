@@ -206,13 +206,18 @@ tcpdump -n -i eth0 -s 1500 -W 50 -C 64 -w '[Output Files]'
 
 # TODO
 MkvMake
+
 Virtualbox
+
 Typora
+
 Unified remote
 
 
 
 # Communication 
 Whatsapp 
+
 telegram 
+
 signal
