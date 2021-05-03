@@ -83,6 +83,8 @@ This is just a cheatsheet with usefull programs or online services. Feel free to
 # Recovery & Diagnostics Live CDs 
 
 - [Medicat](https://gbatemp.net/threads/medicat-usb-a-multiboot-linux-usb-for-pc-repair.361577/) 
+- [MalwareByte](https://fr.malwarebytes.com/mwb-download/thankyou/) 
+- 
 
 # Online Tools
 
@@ -200,5 +202,17 @@ tcpdump -n -i eth0 -s 1500 -W 50 -C 64 -w '[Output Files]'
 - [NirSoft Windows tools](https://www.nirsoft.net/)
 - [Framasoft](https://framasoft.org/)
 - [KC Software Windows tools](https://www.kcsoftwares.com/)
-
 - [Portable apps.io](https://portapps.io/)
+
+# TODO
+MkvMake
+Virtualbox
+Typora
+Unified remote
+
+
+
+# Communication 
+Whatsapp 
+telegram 
+signal
