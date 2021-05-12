@@ -98,6 +98,8 @@ This is just a cheatsheet with usefull programs or online services. Feel free to
 - [Online JSON Viewer](https://jsonformatter.org/json-parser)
 - [Online XML viewer ](https://codebeautify.org/xmlviewer)
 - [Online PC Builder](https://pcpartpicker.com/list/) 
+- [Email blacklist tester](https://unspam.email/) 
+  A service that let you send a mail to their address and see the result of your mail infrastructure (Domain and mail body check)
 
 
 
