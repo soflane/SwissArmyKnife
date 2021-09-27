@@ -3,6 +3,7 @@
 This is just a cheatsheet with usefull programs or online services. Feel free to check!
 
 - [Windows Utilities](#windows-utilities)
+  * [Office 365 & Windows tools](#Office-365-&-Windows-tools)
   * [Network Tools](#network-tools)
   * [Disk management](#disk-management)
   * [To sort](#to-sort)
@@ -10,14 +11,25 @@ This is just a cheatsheet with usefull programs or online services. Feel free to
 - [Online Tools](#online-tools)
   * [Status pages](#status-pages)
 - [Cheatcheets](#cheatcheets)
-- [Linux basic commands](#linux-basic-commands)
+- [Linux basics](linux/unatended-upgrades.md)
   * [Network related](#network-related)
     + [Tracing](#tracing)
 - [Android](#android)
 - [More at theses links](#more-at-theses-links)
 
-
 # Windows Utilities
+
+## Office 365 & Windows tools
+
+### Tools 
+
+- [NK2Edit](https://www.nirsoft.net/utils/outlook_nk2_edit.html)
+
+  Usefull to recover Outlook's AutoComplete list
+
+### Tutorials
+
+- [Import PST file to O365 using Microsoft's network upload](https://www.youtube.com/watch?v=8DhOTQPzFyU)
 
 ## Network Tools
 
@@ -42,10 +54,9 @@ This is just a cheatsheet with usefull programs or online services. Feel free to
 
 
 
-## Disk management
+## Disk management & USB bootable tools
 
 - [Macrium reflect](https://www.macrium.com/reflectfree) 
-
 - [SD Card Formatter](https://www.sdcard.org/downloads/formatter/eula_windows/) 
 - [Rufus](https://rufus.ie/) 
   A bootable USB flasher for your ISO/IMG files with advanced options for specific use cases. 
@@ -54,6 +65,10 @@ This is just a cheatsheet with usefull programs or online services. Feel free to
 - [WinToUSB](https://www.easyuefi.com/wintousb/) 
   Creation of Windows-To-Go drives
 - [Windows 10 ISO downloader](https://www.microsoft.com/fr-fr/software-download/windows10) 
+
+## Texts/flowcharts editors
+
+- [Diagrams.net (formely draw.io)](https://app.diagrams.net/)
 
 
 ## To sort
@@ -119,76 +134,9 @@ This is just a cheatsheet with usefull programs or online services. Feel free to
 
 
 
-# Linux basic commands
+Open self-hosted projects : 
 
-Know which service manager is installed 
-
-```bash
-ps -p 1
-```
-
-Example of what you get : 
-
-```bash
-    PID TTY          TIME CMD
-      1 ?        00:16:16 systemd
-```
-
-Compress :
-
-```bash
-tar -czvf NEW_NAME.tar.gz FILE_OR_DIR
-```
-
-Uncompress : 
-
-```bash
-tar xvf mes0.tar	
-```
-
-How long a process has been running: 
-
-```bash
-ps -o etime= -p [PID]
-```
-
-## Network related
-
-Get the public IP of a server:
-
-Via Curl: 
-
-```bash
-curl ipecho.net/plain
-```
-
-When only DNS is authorized in the network:
-
-```
-dig TXT +short o-o.myaddr.l.google.com @ns1.google.com | awk -F'"' '{ print $2}'
-```
-
-Don't use traceroute, use mtr (A more beautifull traceroute via the mtr command)
-
-```bash
-mtr google.com
-```
-
-
-
-### Tracing
-
-Cyclic trace that writes into 50 files of 64MB each, then starts rewriting in the first files
-
-```bash
-tcpdump -n -i eth0 -s 1500 -W 50 -C 64 -w '[Output Files]'
-```
-
-
-
-
-
-
+[Wolweb (Wake-on-LAN)](https://github.com/unikiteam/wolweb)
 
 # Android	
 
@@ -215,7 +163,9 @@ Typora
 
 Unified remote
 
+## Docker projects
 
+[Wolweb](https://github.com/unikiteam/wolweb)
 
 # Communication 
 Whatsapp 
