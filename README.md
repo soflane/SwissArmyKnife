@@ -51,7 +51,8 @@ This is just a cheatsheet with usefull programs or online services. Feel free to
   SSH Client
 - [Xftp](https://www.netsarang.com/en/xftp-download/)
   FTP/SFTP Client 
-
+- [Homedale](https://www.the-sz.com/products/homedale/)
+  Wi-Fi Analyzer
 
 
 ## Disk management & USB bootable tools
