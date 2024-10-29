@@ -10,6 +10,8 @@ This is just a cheatsheet with usefull programs or online services. Feel free to
 - [Recovery & Diagnostics Live CDs](#recovery---diagnostics-live-cds)
 - [Online Tools](#online-tools)
   * [Status pages](#status-pages)
+  * [Image Tools](#image-tools)
+  * [Other](#other)
 - [Cheatcheets](#cheatcheets)
 - [Linux basics](linux/unatended-upgrades.md)
   * [Network related](#network-related)
@@ -57,7 +59,8 @@ This is just a cheatsheet with usefull programs or online services. Feel free to
 
 ## Disk management & USB bootable tools
 
-- [Macrium reflect](https://www.macrium.com/reflectfree) 
+- [Macrium reflect](https://www.macrium.com/reflectfree)
+  Backup image maker
 - [SD Card Formatter](https://www.sdcard.org/downloads/formatter/eula_windows/) 
 - [Rufus](https://rufus.ie/) 
   A bootable USB flasher for your ISO/IMG files with advanced options for specific use cases. 
@@ -89,14 +92,13 @@ This is just a cheatsheet with usefull programs or online services. Feel free to
 - [CCleaner](https://www.ccleaner.com/fr-fr/ccleaner/download) 
 - [SpeedFan](http://www.speedfan.fr/) 
 - [Outlook backup addin](https://github.com/HoffmannTom/outlookbackupaddin)
-
 - [ID Photo Studio](https://www.kcsoftwares.com/?idps) 
-
 - [Image resizer](https://www.bricelam.net/ImageResizer/) 
 
 # Mac Utilities
 ### Diagnostics 
 - [EtreCheck](https://www.etrecheck.com/fr/index.html)
+  A guided diagnostic tool for windows
 - 
 
 # Recovery & Diagnostics Live CDs 
@@ -107,19 +109,29 @@ This is just a cheatsheet with usefull programs or online services. Feel free to
 - [Hiren’s BootCD 15.2 (Legacy BIOS)]([https://www.hirensbootcd.org/](https://www.hirensbootcd.org/hbcd-v152/))
 
 # Online Tools
-
+## Web Server tools
 - [Cipher list](https://cipherlist.eu/) 
   Strong Ciphers for Apache, nginx and Lighttpd
+- [EcoIndex](http://www.ecoindex.fr/) 
+- [NginxConfig](https://www.digitalocean.com/community/tools/nginx)
+## Mailing tools
+- [Email blacklist tester (Unspam mail)](https://unspam.email/) 
+  A service that let you send a mail to their address and see the result of your mail infrastructure (Domain and mail body check)
+- [Email blacklist tester (Mail Tester)](https://www.mail-tester.com/)
+## Image Tools
+- [BRIAA's IA powered Background Removal](https://huggingface.co/spaces/briaai/BRIA-RMBG-1.4)
+## Online Viewer tools
+- [Online JSON Viewer](https://jsonformatter.org/json-parser)
+- [Online XML viewer ](https://codebeautify.org/xmlviewer)
+
+
+  
+## Other
 - [Have I Been pwned ](https://haveibeenpwned.com/)
 - [Deseat.me](https://www.deseat.me/) 
 - [Draw.io](https://app.diagrams.net/)
-- [EcoIndex](http://www.ecoindex.fr/) 
-- [NginxConfig](https://www.digitalocean.com/community/tools/nginx)
-- [Online JSON Viewer](https://jsonformatter.org/json-parser)
-- [Online XML viewer ](https://codebeautify.org/xmlviewer)
 - [Online PC Builder](https://pcpartpicker.com/list/) 
-- [Email blacklist tester](https://unspam.email/) 
-  A service that let you send a mail to their address and see the result of your mail infrastructure (Domain and mail body check)
+
 
 
 
