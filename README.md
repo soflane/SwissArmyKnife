@@ -69,6 +69,7 @@ This is just a cheatsheet with usefull programs or online services. Feel free to
 - [WinToUSB](https://www.easyuefi.com/wintousb/) 
   Creation of Windows-To-Go drives
 - [Windows 10 ISO downloader](https://www.microsoft.com/fr-fr/software-download/windows10) 
+- [Minitool partition wizard](https://www.partitionwizard.com/download.html) 
 
 ## Texts/flowcharts editors
 
