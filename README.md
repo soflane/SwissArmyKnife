@@ -13,20 +13,17 @@ This is just a cheatsheet with usefull programs or online services. Feel free to
   * [Image Tools](#image-tools)
   * [Other](#other)
 - [Cheatcheets](#cheatcheets)
-- [Linux basics](linux/unatended-upgrades.md)
+- [Linux basics](linux/basics.md)
   * [Network related](#network-related)
     + [Tracing](#tracing)
 - [Android](#android)
 - [More at theses links](#more-at-theses-links)
 
 # Windows Utilities
-
 ## Office 365 & Windows tools
-
 ### Tools 
 
 - [NK2Edit](https://www.nirsoft.net/utils/outlook_nk2_edit.html)
-
   Usefull to recover Outlook's AutoComplete list
 
 ### Tutorials
@@ -175,20 +172,11 @@ Open self-hosted projects :
 
 # TODO
 MkvMake
-
 Virtualbox
-
 Typora
-
 Unified remote
 
 ## Docker projects
 
 [Wolweb](https://github.com/unikiteam/wolweb)
 
-# Communication 
-Whatsapp 
-
-telegram 
-
-signal
