@@ -74,7 +74,7 @@ This is just a cheatsheet with usefull programs or online services. Feel free to
 
 
 ## To sort
-
+- Install Kali on WSL using [Win-Kex](https://www.kali.org/docs/wsl/win-kex/)
 - [Switch Off](https://www.clubic.com/telechargement-en-cours/9272-0-switch-off.html) 
   Sleep/shutdown/reboot timer for windows
 - [Windows Grid](http://windowgrid.net/) 
