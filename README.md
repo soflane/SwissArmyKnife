@@ -107,7 +107,8 @@ This is just a cheatsheet with usefull programs or online services. Feel free to
 - [Medicat](https://gbatemp.net/threads/medicat-usb-a-multiboot-linux-usb-for-pc-repair.361577/) 
 - [MalwareByte](https://fr.malwarebytes.com/mwb-download/thankyou/) 
 - [Hiren’s BootCD PE (UEFI)](https://www.hirensbootcd.org/)
-- [Hiren’s BootCD 15.2 (Legacy BIOS)]([https://www.hirensbootcd.org/](https://www.hirensbootcd.org/hbcd-v152/))
+- [Hiren’s BootCD 15.2 (Legacy BIOS)](https://www.hirensbootcd.org/)
+- [WinPE 11-10 Sergei Strelec](https://sergeistrelec.name)
 
 # Online Tools
 ## Web Server tools
