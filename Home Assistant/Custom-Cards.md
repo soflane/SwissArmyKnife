@@ -44,7 +44,7 @@ A **custom:mushroom-light-card** that includes a dynamically glowing slider base
 
 ### Code Snippet
 
-![Mushroom-light-card-customCSS]([.\CustomCard-Light-Slider-Glow.png](CustomCard-Light-Slider-Glow.png))
+![Mushroom-light-card-customCSS]([.\CustomCard-Light-Slider-Glow.png](Home Assistant/CustomCard-Light-Slider-Glow.png))
 
 
 
