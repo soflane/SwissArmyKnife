@@ -42,12 +42,11 @@ A **custom:mushroom-light-card** that includes a dynamically glowing slider base
 
 *(If you already have everything set up, skip straight to the code!)*
 
-### Code Snippet
-
 ![Mushroom-light-card-customCSS](CustomCard-Light-Slider-Glow.png)
 
-
-
+### Code Snippet
+<details>
+  <summary>View Yaml code</summary>
 ```yaml
 type: custom:mushroom-light-card
 entity: light.ikea_salon
@@ -122,6 +121,10 @@ card_mod:
       }
 
 ```
+</details>
+
+
+
 
 ### How It Works
 
