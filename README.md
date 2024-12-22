@@ -15,30 +15,30 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
 ## Table of Contents
 
 - Windows Utilities
-  - [Office 365 & Windows Tools](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#office-365--windows-tools)
-  - [Network Tools](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#network-tools)
-  - [Disk Management & USB Bootable Tools](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#disk-management--usb-bootable-tools)
-  - [System Utilities](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#system-utilities)
-  - [Windows Customization Tools](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#windows-customization-tools)
-  - [Development Tools](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#development-tools)
-  - [Media Tools](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#media-tools)
-  - [Text & Diagram Editors](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#text--diagram-editors)
-- [Mac Utilities](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#mac-utilities)
-- [Recovery & Diagnostics Live CDs](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#recovery--diagnostics-live-cds)
+  - [Office 365 & Windows Tools](#office-365--windows-tools)
+  - [Network Tools](#network-tools)
+  - [Disk Management & USB Bootable Tools](#disk-management--usb-bootable-tools)
+  - [System Utilities](#system-utilities)
+  - [Windows Customization Tools](#windows-customization-tools)
+  - [Development Tools](#development-tools)
+  - [Media Tools](#media-tools)
+  - [Text & Diagram Editors](#text--diagram-editors)
+- [Mac Utilities](#mac-utilities)
+- [Recovery & Diagnostics Live CDs](#recovery--diagnostics-live-cds)
 - Online Tools
-  - [Web Server Tools](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#web-server-tools)
-  - [Mailing Tools](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#mailing-tools)
-  - [Image Tools](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#image-tools)
-  - [Online Viewer Tools](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#online-viewer-tools)
-  - [Other Online Services](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#other-online-services)
-  - [Status Pages](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#status-pages)
-- [Cheatsheets](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#cheatsheets)
-- [Open Self-Hosted Projects](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#open-self-hosted-projects)
-- [Docker Projects](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#docker-projects)
-- [Proxmox Goodies](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#proxmox-goodies)
-- [Android](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#android)
-- [More at These Links](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#more-at-these-links)
-- [TODO](https://chatgpt.com/c/6766d30b-f7e0-8007-aa38-d3b28167d702#todo)
+  - [Web Server Tools](#web-server-tools)
+  - [Mailing Tools](#mailing-tools)
+  - [Image Tools](#image-tools)
+  - [Online Viewer Tools](#online-viewer-tools)
+  - [Other Online Services](#other-online-services)
+  - [Status Pages](#status-pages)
+- [Cheatsheets](#cheatsheets)
+- [Open Self-Hosted Projects](#open-self-hosted-projects)
+- [Docker Projects](#docker-projects)
+- [Proxmox Goodies](#proxmox-goodies)
+- [Android](#android)
+- [More at These Links](#more-at-these-links)
+- [TODO](#todo)
 
 ------
 
@@ -262,18 +262,28 @@ When your system is on the brink, these might just save your day!
 
 ## TO Add
 
-- **MkvMake**
 - Install Kali on WSL using [Win-Kex](https://www.kali.org/docs/wsl/win-kex/)
+- **MkvMake**
 - **VirtualBox**
-- **Typora**
 - **Unified Remote**
-- Mi home toolkit 
-- balenaetcher
-- winget-autoupdate
-- updatehub
-- uniget
-- crystal disk 
-- crystal mark 
+- **Mi Home Toolkit**
+  A companion tool for Xiaomi’s Mi Home ecosystem—used to manage and automate smart home devices, firmware updates, and some Tweaking.
+- **balenaEtcher**
+  A simple and user-friendly USB flasher for creating bootable USBs from ISO, IMG, or ZIP files.
+- **winget-autoupdate**
+  A utility to automatically update packages installed via Windows Package Manager (winget). Can be scheduled to run via Task Scheduler.
+- **UpdateHub**
+  A centralized update solution that helps manage and deploy software updates across Windows systems.
+- **uniGet**
+  A universal package manager for Windows that supports winget, Chocolatey, and Scoop repositories in one place.
+- **CrystalDiskInfo**
+  Monitors HDD/SSD health by tracking SMART values, temperatures, and more.
+- **CrystalDiskMark**
+  Benchmarking tool to measure the sequential and random read/write speeds of storage drives.
+- **BleachBit**
+  A free and open-source system cleaner that safely removes unnecessary files and frees up disk space (great CCleaner alternative).
+- **Bulk Crap Uninstaller**
+  A powerful, bulk uninstaller tool that helps you remove multiple programs (and all their remnants) in one go.
 - delete ccleaner
 
 Feel free to suggest any additions or open issues/PRs for improvements!
