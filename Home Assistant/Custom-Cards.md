@@ -44,7 +44,7 @@ A **custom:mushroom-light-card** that includes a dynamically glowing slider base
 
 ### Code Snippet
 
-![Mushroom-light-card-customCSS]([.\CustomCard-Light-Slider-Glow.png](https://github.com/soflane/SwissArmyKnife/blob/master/Home%20Assistant/CustomCard-Light-Slider-Glow.png?raw=true))
+![Mushroom-light-card-customCSS]([.\CustomCard-Light-Slider-Glow.png](CustomCard-Light-Slider-Glow.png))
 
 
 
