@@ -47,6 +47,7 @@ A **custom:mushroom-light-card** that includes a dynamically glowing slider base
 ### Code Snippet
 <details>
   <summary>View Yaml code</summary>
+   
 ```yaml
 type: custom:mushroom-light-card
 entity: light.ikea_salon
@@ -119,8 +120,8 @@ card_mod:
       .actions :not(:last-child) {
         margin-right: 0px !important;
       }
-
 ```
+
 </details>
 
 
