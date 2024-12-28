@@ -113,8 +113,8 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
 
 - **[Ninite](https://ninite.com/)**
    Auto-install multiple popular applications at once.
-- **[CCleaner](https://www.ccleaner.com/fr-fr/ccleaner/download)**
-   Cleanup and optimization.
+- ~~**[CCleaner](https://www.ccleaner.com/fr-fr/ccleaner/download)**
+   Cleanup and optimization.~~
 - **[BleachBit](https://www.bleachbit.org/download)**
    A free and open-source system cleaner that safely removes unnecessary files and frees up disk space (great CCleaner alternative).
    It has custom cleaners that you can enable into settings
