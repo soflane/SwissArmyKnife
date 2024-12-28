@@ -179,6 +179,9 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
 - **[Coconut Battery](https://www.coconut-flavour.com/coconutbattery/)**    
   Monitors the health of your Mac’s battery (and iOS devices when plugged in).
   
+- **[Homebrew](https://brew.sh/)** 
+  Homebrew installs [the stuff you need](https://formulae.brew.sh/formula/) that Apple (or your Linux system) didn’t.
+  
    
 
 ---
