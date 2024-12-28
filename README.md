@@ -40,7 +40,8 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
 - [More at These Links](#more-at-these-links)
 - [TODO](#todo)
 
-------
+---
+---
 
 ## Windows Utilities
 
@@ -57,6 +58,8 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
 
 - **[AdapterWatch (Nirsoft)](https://www.nirsoft.net/utils/awatch.html)**
    Shows network interface details.
+- **[SMTP Test Tool](https://github.com/georgjf/SMTPtool)**
+   SMTP server tester app.
 - **[Advanced IP Scanner](https://www.advanced-ip-scanner.com/)**
    Fast and simple IP scanner.
 - **[Advanced Port Scanner](https://www.advanced-port-scanner.com/fr/)**
@@ -86,8 +89,8 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
    Official SD Association formatting utility.
 - **[Rufus](https://rufus.ie/)**
    Versatile USB flasher for ISO/IMG files.
-- **[Etcher](https://www.balena.io/etcher/)**
-   Another USB flasher with an intuitive UI.
+- **[BalenaEtcher](https://www.balena.io/etcher/)**
+   A simple and user-friendly USB flasher for creating bootable USBs from ISO, IMG, or ZIP files.
 - **[WinToUSB](https://www.easyuefi.com/wintousb/)**
    Create Windows-To-Go drives in a snap.
 - **[Windows 10 ISO Downloader](https://www.microsoft.com/fr-fr/software-download/windows10)**
@@ -95,20 +98,38 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
 - **[Minitool Partition Wizard](https://www.partitionwizard.com/download.html)**
    Manage partitions with an easy interface.
 
-### System Utilities
+### Hardware diagnostic & Testing tools
 
 - **[HWInfo](https://www.hwinfo.com/download/)**
-   Hardware info and diagnostics.
+  Hardware info and diagnostics.
+- **[CrystalDiskInfo](https://crystalmark.info/en/software/crystaldiskinfo/)**
+  Monitors HDD/SSD health by tracking SMART values, temperatures, and more.
+- **[CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark/)**
+  Benchmarking tool to measure the sequential and random read/write speeds of storage drives.
+- **[System Examiner](https://systemexaminer.com/)**
+  Generates detailed system reports on Windows, useful for diagnostics and tech support.
+
+### System Utilities
+
 - **[Ninite](https://ninite.com/)**
    Auto-install multiple popular applications at once.
 - **[CCleaner](https://www.ccleaner.com/fr-fr/ccleaner/download)**
    Cleanup and optimization.
+- **[BleachBit](https://www.bleachbit.org/download)**
+   A free and open-source system cleaner that safely removes unnecessary files and frees up disk space (great CCleaner alternative).
+   It has custom cleaners that you can enable into settings
+- [**Bulk Crap Uninstaller**](https://www.bcuninstaller.com/)
+   A powerful, bulk uninstaller tool that helps you remove multiple programs (and all their remnants) in one go.
 - **[SpeedFan](http://www.speedfan.fr/)**
    Monitor and adjust fan speeds/temps.
 - **[Folder Size](http://www.folder-size.com/)**
    Visualize and manage folder sizes on Windows.
 - **[WindowGrid](http://windowgrid.net/)**
    Advanced window management tool.
+- **[SimpleWall](https://github.com/henrypp/simplewall)**
+   Lightweight firewall control tool that helps manage and block unwanted outgoing or incoming connections.
+- [**Windows Privacy for Dashboard (WPD)**](https://wpd.app/)
+   Although not recently updated, its a good start to disable some telemetry settings of Windows 
 - **[Switch Off](https://www.clubic.com/telechargement-en-cours/9272-0-switch-off.html)**
    Scheduled shutdown/reboot/sleep.
 
@@ -124,6 +145,8 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
 
 ### Media Tools
 
+- **[Converseen](https://converseen.fasterland.net/)**
+   A cross platform Batch Image Converter and Resizer Tool
 - **[DigiCamControl](http://digicamcontrol.com/download)**
    Control and automate DSLR cameras from Windows.
 - **[MP3Tag](https://www.mp3tag.de/en/download.html)**
@@ -142,14 +165,24 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
 - **[Typora](https://typora.io/)**
   A clean Markdown editor with live preview (not free, but great UX).
 
-------
+---
+---
 
 ## Mac Utilities
 
 - **[EtreCheck](https://www.etrecheck.com/fr/index.html)**
    Comprehensive diagnostic and troubleshooting tool for macOS.
+   
+- **[Silent Knight](https://eclecticlight.co/lockrattler-systhist/)**    
+  A macOS security and system integrity checker from Eclectic Light. 
+  
+- **[Coconut Battery](https://www.coconut-flavour.com/coconutbattery/)**    
+  Monitors the health of your Mac’s battery (and iOS devices when plugged in).
+  
+   
 
-------
+---
+---
 
 ## Recovery & Diagnostics Live CDs
 
@@ -163,7 +196,9 @@ When your system is on the brink, these might just save your day!
 - **[Hiren’s BootCD 15.2 (Legacy BIOS)](https://www.hirensbootcd.org/hbcd-v152/)**
 - **[WinPE 11-10 Sergei Strelec](https://sergeistrelec.name/)**
 
-------
+---
+---
+
 
 ## Online Tools
 
@@ -264,28 +299,18 @@ When your system is on the brink, these might just save your day!
 
 - Install Kali on WSL using [Win-Kex](https://www.kali.org/docs/wsl/win-kex/)
 - **MkvMake**
+- [**System Examiner**](https://systemexaminer.com/)
 - **VirtualBox**
+- marktext
 - **Unified Remote**
 - **Mi Home Toolkit**
   A companion tool for Xiaomi’s Mi Home ecosystem—used to manage and automate smart home devices, firmware updates, and some Tweaking.
-- **balenaEtcher**
-  A simple and user-friendly USB flasher for creating bootable USBs from ISO, IMG, or ZIP files.
 - **winget-autoupdate**
   A utility to automatically update packages installed via Windows Package Manager (winget). Can be scheduled to run via Task Scheduler.
 - **UpdateHub**
   A centralized update solution that helps manage and deploy software updates across Windows systems.
 - **uniGet**
   A universal package manager for Windows that supports winget, Chocolatey, and Scoop repositories in one place.
-- **CrystalDiskInfo**
-  Monitors HDD/SSD health by tracking SMART values, temperatures, and more.
-- **CrystalDiskMark**
-  Benchmarking tool to measure the sequential and random read/write speeds of storage drives.
-- **BleachBit**
-  A free and open-source system cleaner that safely removes unnecessary files and frees up disk space (great CCleaner alternative).
-- **Bulk Crap Uninstaller**
-  A powerful, bulk uninstaller tool that helps you remove multiple programs (and all their remnants) in one go.
-- delete ccleaner
-
-Feel free to suggest any additions or open issues/PRs for improvements!
+- Feel free to suggest any additions or open issues/PRs for improvements!
 
 **Happy exploring!**
