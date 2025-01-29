@@ -58,28 +58,44 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
 
 - **[AdapterWatch (Nirsoft)](https://www.nirsoft.net/utils/awatch.html)**
    Shows network interface details.
+   
 - **[SMTP Test Tool](https://github.com/georgjf/SMTPtool)**
    SMTP server tester app.
+   
 - **[Advanced IP Scanner](https://www.advanced-ip-scanner.com/)**
    Fast and simple IP scanner.
+   
 - **[Advanced Port Scanner](https://www.advanced-port-scanner.com/fr/)**
    Scan open ports on your network.
+   
 - **[DHCP Server](http://www.dhcpserver.de/cms/download/)**
    DHCP & TFTP server in one.
+   
 - **[Zenmap (Nmap GUI)](https://nmap.org/download.html)**
    Nmap with a friendly UI.
+   
 - **[MobaXterm](https://mobaxterm.mobatek.net/download.html)**
    All-in-one remote computing toolbox (SSH, SFTP, X11, etc.).
+   
 - **[Wireless Key Viewer (Nirsoft)](https://www.nirsoft.net/utils/wireless_key.html)**
    Recovers saved Wi-Fi credentials.
+   
 - **[Wireshark](https://www.wireshark.org/#download)**
    Network protocol analyzer for sniffing traffic.
+   
 - **[XShell](https://www.netsarang.com/en/xshell-download/)**
    Feature-rich SSH client.
+   
 - **[Xftp](https://www.netsarang.com/en/xftp-download/)**
    FTP/SFTP client from the XShell suite.
+   
 - **[Homedale](https://www.the-sz.com/products/homedale/)**
    Wi-Fi analyzer and monitoring tool.
+   
+- **[MQTT Explorer](https://mqtt-explorer.com/)**
+   A graphical MQTT client that allows you to monitor, publish, and subscribe to MQTT topics in real time. Great for debugging MQTT setups.
+
+   
 
 ### Disk Management & USB Bootable Tools
 
