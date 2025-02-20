@@ -140,6 +140,7 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
    Monitor and adjust fan speeds/temps.
 - **[Folder Size](http://www.folder-size.com/)**
    Visualize and manage folder sizes on Windows.
+   (Alternative possible : [WizTree](https://diskanalyzer.com/))
 - **[WindowGrid](http://windowgrid.net/)**
    Advanced window management tool.
 - **[SimpleWall](https://github.com/henrypp/simplewall)**
@@ -148,6 +149,8 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
    Although not recently updated, its a good start to disable some telemetry settings of Windows 
 - **[Switch Off](https://www.clubic.com/telechargement-en-cours/9272-0-switch-off.html)**
    Scheduled shutdown/reboot/sleep.
+- **[Text Grab](https://github.com/TheJoeFin/Text-Grab)**  
+   OCR at fingertips ! A lightweight utility for Windows that lets you select and copy text from anywhere on your screen (including images, dialogs, and non-copyable UIs).
 
 ### Windows Customization Tools
 
@@ -161,23 +164,26 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
 
 ### Media Tools
 
-- **[Converseen](https://converseen.fasterland.net/)**
-   A cross platform Batch Image Converter and Resizer Tool
 - **[DigiCamControl](http://digicamcontrol.com/download)**
    Control and automate DSLR cameras from Windows.
 - **[MP3Tag](https://www.mp3tag.de/en/download.html)**
    Tag editor for music files.
 - **[MakeMKV](https://www.makemkv.com/)**
    Rip DVDs/Blu-rays to MKV files.
+
+### Image Tools
+
+- **[Converseen](https://converseen.fasterland.net/)**
+  A cross platform Batch Image Converter and Resizer Tool
 - **[ID Photo Studio](https://www.kcsoftwares.com/?idps)**
-   Easy ID-photo creation.
+  Easy ID-photo creation.
 - **[Image Resizer](https://www.bricelam.net/ImageResizer/)**
-   Batch resize images with Explorer integration.
+  Batch resize images with Explorer integration.
+- [**Upscayl**](https://github.com/upscayl/upscayl)
+  A free and open source AI Image Upscaler App
 
 ### Text & Diagram Editors
 
-- **[Diagrams.net (formerly Draw.io)](https://app.diagrams.net/)**
-   Create flowcharts, diagrams, and more in your browser.
 - **[Typora](https://typora.io/)**
   A clean Markdown editor with live preview (not free, but great UX).
 
@@ -230,6 +236,22 @@ When your system is on the brink, these might just save your day!
 - **[NginxConfig](https://www.digitalocean.com/community/tools/nginx)**
    Easily generate an Nginx configuration.
 
+### Development & Graphic tools 
+
+- [**HueMint**](https://huemint.com/)
+  AI-driven color palette generator that helps you create harmonious color schemes for web design, branding, or any creative project.
+- **[IT Tools](https://it-tools.tech/)**  
+  An all-in-one suite of online utilities (e.g., JSON formatting, hashing, encryption) for quick troubleshooting and data manipulation.
+- **[Composerize](https://www.composerize.com/)**  
+  Instantly convert Docker CLI commands into Docker Compose configurations—perfect for simplifying your container setups.
+
+
+
+### Text & Diagram Editors
+
+- **[Diagrams.net (formerly Draw.io)](https://app.diagrams.net/)**
+  Create flowcharts, diagrams, and more in your browser.
+
 ### Mailing Tools
 
 - **[Email Blacklist Tester (Unspam mail)](https://unspam.email/)**
@@ -241,6 +263,11 @@ When your system is on the brink, these might just save your day!
 
 - **[BRIAA's AI-Powered Background Removal](https://huggingface.co/spaces/briaai/BRIA-RMBG-1.4)**
    Drop in an image, get a crisp cut-out.
+- **[QuickPic](https://quickpic.t3.gg/)**  
+   A lightweight, browser-based image toolbox that includes:
+   - **SVG to PNG Converter**  
+   - **Square Image Generator**  
+   - **Corner Rounder** : Perfect for quick, on-the-fly image editing and conversions.
 
 ### Online Viewer Tools
 
