@@ -115,3 +115,7 @@ This script retrieves the public IP using `api.ipify.org` and returns it to `ina
 ## Conclusion
 
 By following this guide, you can successfully configure Dynamic DNS on a UniFi UDM/UDR device even when it does not automatically detect its public IP. This approach ensures stable DDNS updates regardless of the network topology, avoiding issues caused by double NAT or dynamic WAN configurations.
+
+## Credits
+
+Thanks [enderwap](https://community.ui.com/user/enderwap/94a5ef6b-8861-40ed-9494-5750dc318e8c) for his [indadyn service trick](https://community.ui.com/questions/INADYN-additional-configuration-parameters-double-NAT-support-for-failover-support-for-external-IP-/071d86de-e6d6-4561-b6b7-fe7bd253df76) and [mrflop](https://community.ui.com/user/mrflop/ea332d33-428f-4ff2-a106-311b86ab531c) for its [alternate public IP check method and OVH config](https://community.ui.com/questions/OVH-dyndns-with-inadyn-on-udm-pro/0d02954c-318a-42ef-a9b5-6afa3e5b8df2) 
