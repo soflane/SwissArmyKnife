@@ -134,6 +134,8 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
 - **[BleachBit](https://www.bleachbit.org/download)**
    A free and open-source system cleaner that safely removes unnecessary files and frees up disk space (great CCleaner alternative).
    It has custom cleaners that you can enable into settings
+- **[DriverStore Explorer (RAPR)](https://github.com/lostindark/DriverStoreExplorer/releases)**  
+   A handy tool to manage Windows driver packages stored in the DriverStore. Easily list, add, and safely remove unused or duplicate drivers.
 - [**Bulk Crap Uninstaller**](https://www.bcuninstaller.com/)
    A powerful, bulk uninstaller tool that helps you remove multiple programs (and all their remnants) in one go.
 - **[SpeedFan](http://www.speedfan.fr/)**
@@ -151,11 +153,21 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
    Scheduled shutdown/reboot/sleep.
 - **[Text Grab](https://github.com/TheJoeFin/Text-Grab)**  
    OCR at fingertips ! A lightweight utility for Windows that lets you select and copy text from anywhere on your screen (including images, dialogs, and non-copyable UIs).
+- **[Everything](https://www.voidtools.com/)**  
+   A lightning-fast Windows search utility that indexes file names in real time, allowing you to find files and folders by name almost instantly.
+- **[Pastebar](https://www.pastebar.app/)**  
+   A free and open-source clipboard manager for macOS, Windows, and Linux. It runs locally as a web app to store your copied items, making it easy to reuse past text snippets without any cloud dependencies.
 
 ### Windows Customization Tools
 
 - **[OEM Info Tool](https://www.trishtech.com/oem-info-tool/)**
    Easily change or view OEM branding info on Windows.
+- **[Winaero Tweaker](https://winaerotweaker.com/)**  
+   A free, comprehensive customization tool for Windows that unlocks hidden settings and tweaks to personalize your system.
+- **[Flow Launcher](https://www.flowlauncher.com/)**  
+   A fast, open-source launcher for Windows, offering quick file and app search, custom plugins, and powerful shortcuts—similar to Alfred or Spotlight on macOS.
+- **[PowerToys](https://github.com/microsoft/PowerToys)**  
+   A set of utilities for power users to fine-tune and streamline their Windows experience, including tools like FancyZones for window management, PowerToys Run for quick app launching, and more.
 
 ### Development Tools
 
@@ -166,6 +178,8 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
 
 - **[DigiCamControl](http://digicamcontrol.com/download)**
    Control and automate DSLR cameras from Windows.
+- **[DigiKam](https://www.digikam.org/)**  
+   A cross-platform, open-source photo management application packed with advanced editing features. Ideal for organizing large image libraries and performing detailed photo touch-ups. 
 - **[MP3Tag](https://www.mp3tag.de/en/download.html)**
    Tag editor for music files.
 - **[MakeMKV](https://www.makemkv.com/)**
