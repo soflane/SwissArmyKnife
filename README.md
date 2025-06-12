@@ -136,6 +136,8 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
    It has custom cleaners that you can enable into settings
 - **[DriverStore Explorer (RAPR)](https://github.com/lostindark/DriverStoreExplorer/releases)**  
    A handy tool to manage Windows driver packages stored in the DriverStore. Easily list, add, and safely remove unused or duplicate drivers.
+- **[Device Cleanup Tool](https://www.uwe-sieber.de/misc_tools_e.html)**  
+   Removes non-present devices from the Windows Device Manager, helping to clean up ghost entries and improve device list clarity.
 - [**Bulk Crap Uninstaller**](https://www.bcuninstaller.com/)
    A powerful, bulk uninstaller tool that helps you remove multiple programs (and all their remnants) in one go.
 - **[SpeedFan](http://www.speedfan.fr/)**
