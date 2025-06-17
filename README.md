@@ -186,6 +186,8 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
    Tag editor for music files.
 - **[MakeMKV](https://www.makemkv.com/)**
    Rip DVDs/Blu-rays to MKV files.
+- **[NAPS2 (Not Another PDF Scanner 2)](https://www.naps2.com/)**  
+   A free and open-source document scanning app for Windows that supports flatbed and feeder scanners, OCR, and direct PDF export.
 
 ### Image Tools
 
