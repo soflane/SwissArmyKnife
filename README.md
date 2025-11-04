@@ -130,7 +130,9 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
 - **[Ninite](https://ninite.com/)**
    Auto-install multiple popular applications at once.
 - ~~**[CCleaner](https://www.ccleaner.com/fr-fr/ccleaner/download)**
-   Cleanup and optimization.~~
+   Cleanup and optimization.~~ Removed because of ad/bloatware
+- **[WuReset](https://github.com/wureset-tools/script-wureset)**  
+   A powerful script toolkit to reset and repair Windows Update components—useful for fixing stuck or broken updates.
 - **[BleachBit](https://www.bleachbit.org/download)**
    A free and open-source system cleaner that safely removes unnecessary files and frees up disk space (great CCleaner alternative).
    It has custom cleaners that you can enable into settings
