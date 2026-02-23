@@ -15,10 +15,12 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
 ## Table of Contents
 
 - Windows Utilities
+  - [Security Tools](#security-tools)
   - [Office 365 & Windows Tools](#office-365--windows-tools)
   - [Network Tools](#network-tools)
   - [Disk Management & USB Bootable Tools](#disk-management--usb-bootable-tools)
   - [System Utilities](#system-utilities)
+  - [Windows Post-Install Tools](#windows-post-install-tools)
   - [Windows Customization Tools](#windows-customization-tools)
   - [Development Tools](#development-tools)
   - [Media Tools](#media-tools)
@@ -44,6 +46,11 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
 ---
 
 ## Windows Utilities
+
+### Security Tools
+
+- **[Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security)**  
+  A PowerShell-based toolkit designed to strengthen Windows security by applying recommended hardening configurations and security best practices.
 
 ### Office 365 & Windows Tools
 
@@ -161,6 +168,15 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
    A lightning-fast Windows search utility that indexes file names in real time, allowing you to find files and folders by name almost instantly.
 - **[Pastebar](https://www.pastebar.app/)**  
    A free and open-source clipboard manager for macOS, Windows, and Linux. It runs locally as a web app to store your copied items, making it easy to reuse past text snippets without any cloud dependencies.
+
+### Windows Post-Install Tools
+
+- **[FlyOOBE](https://github.com/builtbybel/FlyOOBE)**  
+  A lightweight utility that lets you customize and streamline the Windows Out-Of-Box Experience (OOBE), helping you skip unwanted steps and speed up initial system setup.
+- **[Winhance](https://github.com/memstechtips/Winhance)**  
+  A Windows optimization and customization tool that helps streamline system setup, remove bloat, and apply performance and privacy tweaks.
+- **[Winslop](https://github.com/builtbybel/Winslop)**  
+  A lightweight debloating and tweaking utility for Windows that helps remove unwanted features and simplify the system experience.
 
 ### Windows Customization Tools
 
