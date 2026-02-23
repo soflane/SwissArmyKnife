@@ -1,0 +1,578 @@
+{
+  "export_version": 3,
+  "packages": [
+    {
+      "Id": "7zip.7zip",
+      "Name": "7-Zip",
+      "Version": "24.08",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "9NCBCSZSJRSB",
+      "Name": "Spotify - Music and Podcasts",
+      "Version": "Unknown",
+      "Source": "msstore",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "9NKSQGP7F2NH",
+      "Name": "WhatsApp",
+      "Version": "Unknown",
+      "Source": "msstore",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "9NR5B8GVVM13",
+      "Name": "Lenovo Commercial Vantage",
+      "Version": "Unknown",
+      "Source": "msstore",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "9NT1R1C2HH7J",
+      "Name": "ChatGPT",
+      "Version": "Unknown",
+      "Source": "msstore",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "9NZWS5X28P0J",
+      "Name": "1Password",
+      "Version": "Unknown",
+      "Source": "msstore",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "9WZDNCRF0083",
+      "Name": "Messenger",
+      "Version": "2250.1.0.0",
+      "Source": "msstore",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "9WZDNCRFJ4MV",
+      "Name": "Lenovo Vantage",
+      "Version": "Unknown",
+      "Source": "msstore",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Adobe.Acrobat.Reader.64-bit",
+      "Name": "Adobe Acrobat Reader (64-bit)",
+      "Version": "23.008.20533",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "AgileBits.1Password",
+      "Name": "1Password",
+      "Version": "8.11.12.27",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "AgileBits.1Password.CLI",
+      "Name": "1Password CLI",
+      "Version": "2.31.1",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Airytec.SwitchOff",
+      "Name": "Airytec Switch Off",
+      "Version": "3.5.1",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "AnyDesk.AnyDesk",
+      "Name": "AnyDesk",
+      "Version": "ad 9.0.4",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Anysphere.Cursor",
+      "Name": "Cursor",
+      "Version": "0.47.7",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Apple.iTunes",
+      "Name": "iTunes",
+      "Version": "12.13.2.3",
+      "Source": "winget",
+      "ManagerName": "Winget",
+      "Updates": {
+        "UpdatesIgnored": true,
+        "IgnoredVersion": "*"
+      }
+    },
+    {
+      "Id": "Bambulab.Bambustudio",
+      "Name": "Bambu Studio",
+      "Version": "02.02.00.85",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Bitwarden.Bitwarden",
+      "Name": "Bitwarden",
+      "Version": "2025.2.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "BleachBit.BleachBit",
+      "Name": "BleachBit",
+      "Version": "4.6.0.2537",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Brave.Brave",
+      "Name": "Brave",
+      "Version": "134.1.76.82",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "BriceLambson.ImageResizerforWindows",
+      "Name": "Image Resizer for Windows",
+      "Version": "3.1.2",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "CodeSector.TeraCopy",
+      "Name": "TeraCopy",
+      "Version": "3.17",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Cyanfish.NAPS2",
+      "Name": "NAPS2",
+      "Version": "8.2.1",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Discord.Discord",
+      "Name": "Discord",
+      "Version": "1.0.9166",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Docker.DockerDesktop",
+      "Name": "Docker Desktop",
+      "Version": "4.36.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "ElectronicArts.EADesktop",
+      "Name": "EA app",
+      "Version": "13.531.2.6045",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "ElementLabs.LMStudio",
+      "Name": "LM Studio",
+      "Version": "0.3.23",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "EpicGames.EpicGamesLauncher",
+      "Name": "Epic Games Launcher",
+      "Version": "1.3.151.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Famatech.AdvancedIPScanner",
+      "Name": "Advanced IP Scanner",
+      "Version": "2.5.4594.1",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "FastStone.Viewer",
+      "Name": "FastStone Image Viewer",
+      "Version": "7.9",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Faster3ck.Converseen",
+      "Name": "Converseen",
+      "Version": "0.15.0.2",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Flow-Launcher.Flow-Launcher",
+      "Name": "Flow Launcher",
+      "Version": "1.19.5",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Folder_Size",
+      "Name": "Folder Size",
+      "Version": "5.9.0.1",
+      "Source": "community",
+      "ManagerName": "Chocolatey"
+    },
+    {
+      "Id": "Fork.Fork",
+      "Name": "Fork - a fast and friendly git client",
+      "Version": "2.11.1",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Google.Chrome",
+      "Name": "Google Chrome",
+      "Version": "131.0.6778.205",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Insecure.Nmap",
+      "Name": "Nmap",
+      "Version": "7.80",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Klocman.BulkCrapUninstaller",
+      "Name": "Bulk Crap Uninstaller",
+      "Version": "5.8.3.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Lenovo.ServiceBridge",
+      "Name": "Lenovo Service Bridge",
+      "Version": "5.0.2.18",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Logitech.OptionsPlus",
+      "Name": "Logi Options\u002B",
+      "Version": "1.86.675082",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Logitech.UnifyingSoftware",
+      "Name": "Logitech Unifying Software",
+      "Version": "2.52.33",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Microsoft.Office",
+      "Name": "Microsoft 365 Apps for enterprise",
+      "Version": "16.0.18526.20146",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Microsoft.OneDrive",
+      "Name": "Microsoft OneDrive",
+      "Version": "25.140.0720.0001",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Microsoft.PowerToys",
+      "Name": "PowerToys",
+      "Version": "0.88.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Microsoft.Teams",
+      "Name": "Microsoft Teams",
+      "Version": "25198.1112.3855.2900",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Microsoft.Teams.Classic",
+      "Name": "Microsoft Teams classic",
+      "Version": "1.8.00.21151",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Microsoft.Teams.Free",
+      "Name": "Microsoft Teams",
+      "Version": "25212.2101.3846.4105",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Microsoft.VisualStudio.2022.Community",
+      "Name": "Visual Studio Community 2022",
+      "Version": "17.14.12",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Microsoft.VisualStudioCode",
+      "Name": "Microsoft Visual Studio Code",
+      "Version": "1.98.2",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Microsoft.WindowsTerminal",
+      "Name": "Windows Terminal",
+      "Version": "1.22.12111.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "MiniTool.PartitionWizard.Free",
+      "Name": "MiniTool Partition Wizard Free",
+      "Version": "12.8",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Mobatek.MobaXterm",
+      "Name": "MobaXterm",
+      "Version": "25.3.0.5384",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Mobatek.MobaXterm",
+      "Name": "MobaXterm",
+      "Version": "24.2.0.5220",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Mozilla.Firefox",
+      "Name": "Mozilla Firefox",
+      "Version": "135.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Mozilla.Thunderbird",
+      "Name": "Mozilla Thunderbird (en-US)",
+      "Version": "143.0.1",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "NetsdkSoftwareFZE.S3Browser",
+      "Name": "S3 Browser",
+      "Version": "12.0.1",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "NirSoft.BlueScreenView",
+      "Name": "BlueScreenView",
+      "Version": "1.55",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Notepad\u002B\u002B.Notepad\u002B\u002B",
+      "Name": "Notepad\u002B\u002B",
+      "Version": "8.7",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Notion.Notion",
+      "Name": "Notion",
+      "Version": "4.7.2",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Ollama.Ollama",
+      "Name": "Ollama",
+      "Version": "0.11.4",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Plex.Plex",
+      "Name": "Plex",
+      "Version": "1.105.2",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "RamenSoftware.Windhawk",
+      "Name": "Windhawk",
+      "Version": "1.5.1",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "RaspberryPiFoundation.RaspberryPiImager",
+      "Name": "Raspberry Pi Imager",
+      "Version": "1.9.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Rufus.Rufus",
+      "Name": "Rufus",
+      "Version": "4.9",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "ShareX.ShareX",
+      "Name": "ShareX",
+      "Version": "17.0.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Telegram.TelegramDesktop",
+      "Name": "Telegram Desktop",
+      "Version": "5.13.1",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Upscayl.Upscayl",
+      "Name": "Upscayl",
+      "Version": "2.15.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Valve.Steam",
+      "Name": "Steam",
+      "Version": "2.10.91.91",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "VideoLAN.VLC",
+      "Name": "VLC media player",
+      "Version": "3.0.21",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "WPD.WPD",
+      "Name": "WPD",
+      "Version": "1.5.2042 RC 1",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "WinMerge.WinMerge",
+      "Name": "WinMerge",
+      "Version": "2.16.42.1",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "WiresharkFoundation.Wireshark",
+      "Name": "Wireshark",
+      "Version": "4.4.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "XP8K4RGX25G3GM",
+      "Name": "CrystalDiskInfo",
+      "Version": "9.4.4",
+      "Source": "msstore",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "XP9CDQW6ML4NQN",
+      "Name": "Plex for Windows",
+      "Version": "1.109.0",
+      "Source": "msstore",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "XPFM11Z0W10R7G",
+      "Name": "Plex Media Server",
+      "Version": "1.41.4.9463",
+      "Source": "msstore",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "XPFPGHZZ8M7MMH",
+      "Name": "NAPS2 Document Scanner",
+      "Version": "6.1.2",
+      "Source": "msstore",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "appmakes.Typora",
+      "Name": "Typora",
+      "Version": "1.9.5",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "filezilla",
+      "Name": "Filezilla",
+      "Version": "3.69.1",
+      "Source": "community",
+      "ManagerName": "Chocolatey"
+    },
+    {
+      "Id": "nomic.gpt4all",
+      "Name": "GPT4All",
+      "Version": "3.10.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "postman",
+      "Name": "Postman",
+      "Version": "11.46.6",
+      "Source": "community",
+      "ManagerName": "Chocolatey"
+    },
+    {
+      "Id": "qBittorrent.qBittorrent",
+      "Name": "qBittorrent",
+      "Version": "5.0.3",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "thomasnordquist.MQTT-Explorer",
+      "Name": "MQTT Explorer",
+      "Version": "0.3.5",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "winaero.tweaker",
+      "Name": "Winaero Tweaker",
+      "Version": "1.63.0.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    }
+  ],
+  "incompatible_packages_info": "Incompatible packages cannot be installed from UniGetUI, either because they came from a local source (for example Local PC) or because the package manager was unavailable. Nevertheless, they have been listed here for logging purposes.",
+  "incompatible_packages": []
+}

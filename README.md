@@ -19,6 +19,7 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
   - [Office 365 & Windows Tools](#office-365--windows-tools)
   - [Network Tools](#network-tools)
   - [Disk Management & USB Bootable Tools](#disk-management--usb-bootable-tools)
+  - [Apps Management](#apps-management)
   - [System Utilities](#system-utilities)
   - [Windows Post-Install Tools](#windows-post-install-tools)
   - [Windows Customization Tools](#windows-customization-tools)
@@ -132,23 +133,28 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
 - **[System Examiner](https://systemexaminer.com/)**
   Generates detailed system reports on Windows, useful for diagnostics and tech support.
 
+### Apps Management
+
+- **[UniGetUI](https://github.com/marticliment/UniGetUI)**  
+  A graphical interface for managing Windows package managers (Winget, Chocolatey, Scoop, etc.), making it easy to install, update, and remove software from one unified dashboard.
+- **[Ninite](https://ninite.com/)**
+  Auto-install multiple popular applications at once.
+- ~~**[CCleaner](https://www.ccleaner.com/fr-fr/ccleaner/download)**
+  Cleanup and optimization.~~ Removed because of ad/bloatware, use Bulk Crap Uninstaller & Bleachbit instead.
+- [**Bulk Crap Uninstaller**](https://www.bcuninstaller.com/)
+  A powerful, bulk uninstaller tool that helps you remove multiple programs (and all their remnants) in one go.
+- **[BleachBit](https://www.bleachbit.org/download)**
+  A free and open-source system cleaner that safely removes unnecessary files and frees up disk space (great CCleaner alternative).
+  It has custom cleaners that you can enable into settings
+
 ### System Utilities
 
-- **[Ninite](https://ninite.com/)**
-   Auto-install multiple popular applications at once.
-- ~~**[CCleaner](https://www.ccleaner.com/fr-fr/ccleaner/download)**
-   Cleanup and optimization.~~ Removed because of ad/bloatware
 - **[WuReset](https://github.com/wureset-tools/script-wureset)**  
    A powerful script toolkit to reset and repair Windows Update components—useful for fixing stuck or broken updates.
-- **[BleachBit](https://www.bleachbit.org/download)**
-   A free and open-source system cleaner that safely removes unnecessary files and frees up disk space (great CCleaner alternative).
-   It has custom cleaners that you can enable into settings
 - **[DriverStore Explorer (RAPR)](https://github.com/lostindark/DriverStoreExplorer/releases)**  
    A handy tool to manage Windows driver packages stored in the DriverStore. Easily list, add, and safely remove unused or duplicate drivers.
 - **[Device Cleanup Tool](https://www.uwe-sieber.de/misc_tools_e.html)**  
    Removes non-present devices from the Windows Device Manager, helping to clean up ghost entries and improve device list clarity.
-- [**Bulk Crap Uninstaller**](https://www.bcuninstaller.com/)
-   A powerful, bulk uninstaller tool that helps you remove multiple programs (and all their remnants) in one go.
 - **[SpeedFan](http://www.speedfan.fr/)**
    Monitor and adjust fan speeds/temps.
 - **[Folder Size](http://www.folder-size.com/)**
@@ -391,8 +397,6 @@ When your system is on the brink, these might just save your day!
   A utility to automatically update packages installed via Windows Package Manager (winget). Can be scheduled to run via Task Scheduler.
 - **UpdateHub**
   A centralized update solution that helps manage and deploy software updates across Windows systems.
-- **uniGet**
-  A universal package manager for Windows that supports winget, Chocolatey, and Scoop repositories in one place.
 - Feel free to suggest any additions or open issues/PRs for improvements!
 
 **Happy exploring!**
