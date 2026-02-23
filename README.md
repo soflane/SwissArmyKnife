@@ -385,6 +385,12 @@ When your system is on the brink, these might just save your day!
 
 ## TO Add
 
+- Self Host section 
+  - Community scripts & [proxmox Guide](https://www.derekseaman.com/2023/10/home-assistant-proxmox-ve-8-0-quick-start-guide-2.html)
+  - Cosmos 
+  - ZimaOS 
+
+- OpenWRT ToH
 - Install Kali on WSL using [Win-Kex](https://www.kali.org/docs/wsl/win-kex/)
 - **MkvMake**
 - [**System Examiner**](https://systemexaminer.com/)
