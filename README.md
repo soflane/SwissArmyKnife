@@ -151,6 +151,8 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
 
 - **[WuReset](https://github.com/wureset-tools/script-wureset)**  
    A powerful script toolkit to reset and repair Windows Update components—useful for fixing stuck or broken updates.
+- **[WinMerge](https://winmerge.org/)**  
+   An open-source file comparison and merging tool that helps you visually compare differences between files and folders—great for code, configs, and troubleshooting.
 - **[DriverStore Explorer (RAPR)](https://github.com/lostindark/DriverStoreExplorer/releases)**  
    A handy tool to manage Windows driver packages stored in the DriverStore. Easily list, add, and safely remove unused or duplicate drivers.
 - **[Device Cleanup Tool](https://www.uwe-sieber.de/misc_tools_e.html)**  
