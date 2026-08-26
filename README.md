@@ -214,6 +214,8 @@ This is my carefully curated list of handy utilities, Docker containers, Proxmox
    Rip DVDs/Blu-rays to MKV files.
 - **[NAPS2 (Not Another PDF Scanner 2)](https://www.naps2.com/)**  
    A free and open-source document scanning app for Windows that supports flatbed and feeder scanners, OCR, and direct PDF export.
+- **[Stirling PDF](https://www.stirling.com/)**  
+   A powerful self-hosted PDF toolbox offering dozens of features like merging, splitting, OCR, compression, conversion, signing, and editing—all running locally for better privacy and control. Perfect for homelabs and Docker setups. 
 
 ### Image Tools
 
@@ -336,6 +338,8 @@ When your system is on the brink, these might just save your day!
 
 ## Cheatsheets
 
+- **[spf-dkim-dmarc-simplified](https://github.com/nicanorflavier/spf-dkim-dmarc-simplified)**
+   A Simple Guide to understand SPF, DKIM, and DMARC
 - **[Devhints](https://devhints.io/)**
    Massive collection of quick references ([Bash](https://devhints.io/bash), [MySQL](https://devhints.io/mysql), etc.).
 - **[Git Guide](http://rogerdudler.github.io/git-guide/)**
