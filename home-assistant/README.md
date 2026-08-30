@@ -71,6 +71,13 @@ configuration snippets.
   repositories, and specialized dashboard projects.  
   `Reference` `Community`
 
+## Smart device utilities
+
+- **[Mi Home Toolkit](https://github.com/ApplY3D/mi-home-toolkit)** — View Xiaomi
+  Mi Home device details and tokens, enable LAN mode for supported bulbs, and
+  execute device commands from a desktop application.\
+  `Xiaomi` `Smart home` `Windows` `macOS` `Open source`
+
 ## Troubleshooting habits
 
 - Create backups frequently and store at least one copy outside the Home
