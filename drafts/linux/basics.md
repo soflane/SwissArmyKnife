@@ -1,88 +1,82 @@
 # Linux basics
 
-## Host configurations
+> Draft: working notes that require review before publication.
 
-[Automatic APT updates (with mail notifications)](https://gist.github.com/roybotnik/b0ec2eda2bc625e19eaf)
+## Host configuration
 
+- Find and review a current method for automatic APT updates with email
+  notifications; the original reference is no longer available.
 
+## Package updates
 
-## Commands
+Update a Debian-based system:
 
-Update all, Debian based 
-
-```shell
-sudo apt update ; sudo apt upgrade -y ; sudo apt dist-upgrade ; sudo do-release-upgrade ; sudo apt autoremove
+```bash
+sudo apt update
+sudo apt upgrade -y
+sudo apt dist-upgrade
+sudo do-release-upgrade
+sudo apt autoremove
 ```
 
-Update RPI
+Update a Raspberry Pi OS system:
 
-```shell
-sudo apt update ; sudo apt -y dist-upgrade ; sudo apt full-upgrade 
-
+```bash
+sudo apt update
+sudo apt full-upgrade -y
 ```
 
-Know which service manager is installed 
+## Process and service information
+
+Identify the process running as PID 1, which usually reveals the service
+manager:
 
 ```bash
 ps -p 1
 ```
 
-Example of what you get : 
+Check how long a process has been running:
 
 ```bash
-    PID TTY          TIME CMD
-      1 ?        00:16:16 systemd
+ps -o etime= -p PID
 ```
 
-Compress :
+## Archives
+
+Create a compressed tar archive:
 
 ```bash
-tar -czvf NEW_NAME.tar.gz FILE_OR_DIR
+tar -czvf archive-name.tar.gz file-or-directory
 ```
 
-Uncompress : 
+Extract an archive:
 
 ```bash
-tar xvf mes0.tar	
+tar -xvf archive-name.tar
 ```
 
-How long a process has been running: 
+## Network notes
+
+Get the public IP address with curl:
 
 ```bash
-ps -o etime= -p [PID]
+curl https://ipecho.net/plain
 ```
 
-## Network related
-
-Get the public IP of a server:
-
-Via Curl: 
+Query the public IP through DNS when only DNS traffic is allowed:
 
 ```bash
-curl ipecho.net/plain
+dig TXT +short o-o.myaddr.l.google.com @ns1.google.com | awk -F'"' '{ print $2 }'
 ```
 
-When only DNS is authorized in the network:
-
-```
-dig TXT +short o-o.myaddr.l.google.com @ns1.google.com | awk -F'"' '{ print $2}'
-```
-
-Don't use traceroute, use mtr (A more beautifull traceroute via the mtr command)
+Use `mtr` for a continuously updated route and latency view:
 
 ```bash
 mtr google.com
 ```
 
-
-
-### Tracing
-
-Cyclic trace that writes into 50 files of 64MB each, then starts rewriting in the first files
+Capture packets into 50 rotating files of 64 MB each:
 
 ```bash
-tcpdump -n -i eth0 -s 1500 -W 50 -C 64 -w '[Output Files]'
+sudo tcpdump -n -i eth0 -s 1500 -W 50 -C 64 -w 'capture-file'
 ```
-
-
-

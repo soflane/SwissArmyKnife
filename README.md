@@ -1,414 +1,47 @@
 # SwissArmyKnife
 
-**Your personal cheat sheet of useful programs, online services, and all-around geeky goodies!**
-
-Hey there, fellow geeks (and the geek-curious)! 
-This repository is a living collection of the most practical (and sometimes downright lifesaving) tools I’ve stumbled upon during my tech adventures. 
-It’s split into categories so you can quickly find what you need—whether it’s a Windows disk utility, a Docker container, or a random online JSON viewer.
-
-If you find this helpful, give it a star or share it around. If you have suggestions for new additions or better ways to structure it, feel free to open an issue or submit a pull request!
-
-This is my carefully curated list of handy utilities, Docker containers, Proxmox tips, and more, all in one convenient place. If you find something new and awesome, feel free to add it (PRs welcome!).
-
-------
-
-## Table of Contents
-
-- Windows Utilities
-  - [Security Tools](#security-tools)
-  - [Office 365 & Windows Tools](#office-365--windows-tools)
-  - [Network Tools](#network-tools)
-  - [Disk Management & USB Bootable Tools](#disk-management--usb-bootable-tools)
-  - [Apps Management](#apps-management)
-  - [System Utilities](#system-utilities)
-  - [Windows Post-Install Tools](#windows-post-install-tools)
-  - [Windows Customization Tools](#windows-customization-tools)
-  - [Development Tools](#development-tools)
-  - [Media Tools](#media-tools)
-  - [Text & Diagram Editors](#text--diagram-editors)
-- [Mac Utilities](#mac-utilities)
-- [Recovery & Diagnostics Live CDs](#recovery--diagnostics-live-cds)
-- Online Tools
-  - [Web Server Tools](#web-server-tools)
-  - [Mailing Tools](#mailing-tools)
-  - [Image Tools](#image-tools)
-  - [Online Viewer Tools](#online-viewer-tools)
-  - [Other Online Services](#other-online-services)
-  - [Status Pages](#status-pages)
-- [Cheatsheets](#cheatsheets)
-- [Open Self-Hosted Projects](#open-self-hosted-projects)
-- [Docker Projects](#docker-projects)
-- [Proxmox Goodies](#proxmox-goodies)
-- [Android](#android)
-- [More at These Links](#more-at-these-links)
-- [TODO](#todo)
-
----
----
-
-## Windows Utilities
-
-### Security Tools
-
-- **[Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security)**  
-  A PowerShell-based toolkit designed to strengthen Windows security by applying recommended hardening configurations and security best practices.
-
-### Office 365 & Windows Tools
-
-- **[NK2Edit](https://www.nirsoft.net/utils/outlook_nk2_edit.html)**
-   Handy for recovering Outlook’s AutoComplete list.
-- **[Import PST File to O365](https://www.youtube.com/watch?v=8DhOTQPzFyU)**
-   Tutorial for Microsoft’s network upload method.
-- **[Outlook Backup Add-in](https://github.com/HoffmannTom/outlookbackupaddin)**
-   Automates Outlook PST backups.
-
-### Network Tools
-
-- **[AdapterWatch (Nirsoft)](https://www.nirsoft.net/utils/awatch.html)**
-   Shows network interface details.
-   
-- **[SMTP Test Tool](https://github.com/georgjf/SMTPtool)**
-   SMTP server tester app.
-   
-- **[Advanced IP Scanner](https://www.advanced-ip-scanner.com/)**
-   Fast and simple IP scanner.
-   
-- **[Advanced Port Scanner](https://www.advanced-port-scanner.com/fr/)**
-   Scan open ports on your network.
-   
-- **[DHCP Server](http://www.dhcpserver.de/cms/download/)**
-   DHCP & TFTP server in one.
-   
-- **[Zenmap (Nmap GUI)](https://nmap.org/download.html)**
-   Nmap with a friendly UI.
-   
-- **[MobaXterm](https://mobaxterm.mobatek.net/download.html)**
-   All-in-one remote computing toolbox (SSH, SFTP, X11, etc.).
-   
-- **[Wireless Key Viewer (Nirsoft)](https://www.nirsoft.net/utils/wireless_key.html)**
-   Recovers saved Wi-Fi credentials.
-   
-- **[Wireshark](https://www.wireshark.org/#download)**
-   Network protocol analyzer for sniffing traffic.
-   
-- **[XShell](https://www.netsarang.com/en/xshell-download/)**
-   Feature-rich SSH client.
-   
-- **[Xftp](https://www.netsarang.com/en/xftp-download/)**
-   FTP/SFTP client from the XShell suite.
-   
-- **[Homedale](https://www.the-sz.com/products/homedale/)**
-   Wi-Fi analyzer and monitoring tool.
-   
-- **[MQTT Explorer](https://mqtt-explorer.com/)**
-   A graphical MQTT client that allows you to monitor, publish, and subscribe to MQTT topics in real time. Great for debugging MQTT setups.
-
-   
-
-### Disk Management & USB Bootable Tools
-
-- **[Macrium Reflect](https://www.macrium.com/reflectfree)**
-   Reliable backup and cloning tool (free version available).
-- **[SD Card Formatter](https://www.sdcard.org/downloads/formatter/eula_windows/)**
-   Official SD Association formatting utility.
-- **[Rufus](https://rufus.ie/)**
-   Versatile USB flasher for ISO/IMG files.
-- **[BalenaEtcher](https://www.balena.io/etcher/)**
-   A simple and user-friendly USB flasher for creating bootable USBs from ISO, IMG, or ZIP files.
-- **[WinToUSB](https://www.easyuefi.com/wintousb/)**
-   Create Windows-To-Go drives in a snap.
-- **[Windows 10 ISO Downloader](https://www.microsoft.com/fr-fr/software-download/windows10)**
-   Official Microsoft Windows ISO page.
-- **[Minitool Partition Wizard](https://www.partitionwizard.com/download.html)**
-   Manage partitions with an easy interface.
-
-### Hardware diagnostic & Testing tools
-
-- **[HWInfo](https://www.hwinfo.com/download/)**
-  Hardware info and diagnostics.
-- **[CrystalDiskInfo](https://crystalmark.info/en/software/crystaldiskinfo/)**
-  Monitors HDD/SSD health by tracking SMART values, temperatures, and more.
-- **[CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark/)**
-  Benchmarking tool to measure the sequential and random read/write speeds of storage drives.
-- **[System Examiner](https://systemexaminer.com/)**
-  Generates detailed system reports on Windows, useful for diagnostics and tech support.
-
-### Apps Management
-
-- **[UniGetUI](https://github.com/marticliment/UniGetUI)**  
-  A graphical interface for managing Windows package managers (Winget, Chocolatey, Scoop, etc.), making it easy to install, update, and remove software from one unified dashboard.
-- **[Ninite](https://ninite.com/)**
-  Auto-install multiple popular applications at once.
-- ~~**[CCleaner](https://www.ccleaner.com/fr-fr/ccleaner/download)**
-  Cleanup and optimization.~~ Removed because of ad/bloatware, use Bulk Crap Uninstaller & Bleachbit instead.
-- [**Bulk Crap Uninstaller**](https://www.bcuninstaller.com/)
-  A powerful, bulk uninstaller tool that helps you remove multiple programs (and all their remnants) in one go.
-- **[BleachBit](https://www.bleachbit.org/download)**
-  A free and open-source system cleaner that safely removes unnecessary files and frees up disk space (great CCleaner alternative).
-  It has custom cleaners that you can enable into settings
-
-### System Utilities
-
-- **[WuReset](https://github.com/wureset-tools/script-wureset)**  
-   A powerful script toolkit to reset and repair Windows Update components—useful for fixing stuck or broken updates.
-- **[WinMerge](https://winmerge.org/)**  
-   An open-source file comparison and merging tool that helps you visually compare differences between files and folders—great for code, configs, and troubleshooting.
-- **[DriverStore Explorer (RAPR)](https://github.com/lostindark/DriverStoreExplorer/releases)**  
-   A handy tool to manage Windows driver packages stored in the DriverStore. Easily list, add, and safely remove unused or duplicate drivers.
-- **[Device Cleanup Tool](https://www.uwe-sieber.de/misc_tools_e.html)**  
-   Removes non-present devices from the Windows Device Manager, helping to clean up ghost entries and improve device list clarity.
-- **[SpeedFan](http://www.speedfan.fr/)**
-   Monitor and adjust fan speeds/temps.
-- **[Folder Size](http://www.folder-size.com/)**
-   Visualize and manage folder sizes on Windows.
-   (Alternative possible : [WizTree](https://diskanalyzer.com/))
-- **[WindowGrid](http://windowgrid.net/)**
-   Advanced window management tool.
-- **[SimpleWall](https://github.com/henrypp/simplewall)**
-   Lightweight firewall control tool that helps manage and block unwanted outgoing or incoming connections.
-- [**Windows Privacy for Dashboard (WPD)**](https://wpd.app/)
-   Although not recently updated, its a good start to disable some telemetry settings of Windows 
-- **[Switch Off](https://www.clubic.com/telechargement-en-cours/9272-0-switch-off.html)**
-   Scheduled shutdown/reboot/sleep.
-- **[Text Grab](https://github.com/TheJoeFin/Text-Grab)**  
-   OCR at fingertips ! A lightweight utility for Windows that lets you select and copy text from anywhere on your screen (including images, dialogs, and non-copyable UIs).
-- **[Everything](https://www.voidtools.com/)**  
-   A lightning-fast Windows search utility that indexes file names in real time, allowing you to find files and folders by name almost instantly.
-- **[Pastebar](https://www.pastebar.app/)**  
-   A free and open-source clipboard manager for macOS, Windows, and Linux. It runs locally as a web app to store your copied items, making it easy to reuse past text snippets without any cloud dependencies.
-
-### Windows Post-Install Tools
-
-- **[FlyOOBE](https://github.com/builtbybel/FlyOOBE)**  
-  A lightweight utility that lets you customize and streamline the Windows Out-Of-Box Experience (OOBE), helping you skip unwanted steps and speed up initial system setup.
-- **[Winhance](https://github.com/memstechtips/Winhance)**  
-  A Windows optimization and customization tool that helps streamline system setup, remove bloat, and apply performance and privacy tweaks.
-- **[Winslop](https://github.com/builtbybel/Winslop)**  
-  A lightweight debloating and tweaking utility for Windows that helps remove unwanted features and simplify the system experience.
-
-### Windows Customization Tools
-
-- **[OEM Info Tool](https://www.trishtech.com/oem-info-tool/)**
-   Easily change or view OEM branding info on Windows.
-- **[Winaero Tweaker](https://winaerotweaker.com/)**  
-   A free, comprehensive customization tool for Windows that unlocks hidden settings and tweaks to personalize your system.
-- **[Flow Launcher](https://www.flowlauncher.com/)**  
-   A fast, open-source launcher for Windows, offering quick file and app search, custom plugins, and powerful shortcuts—similar to Alfred or Spotlight on macOS.
-- **[PowerToys](https://github.com/microsoft/PowerToys)**  
-   A set of utilities for power users to fine-tune and streamline their Windows experience, including tools like FancyZones for window management, PowerToys Run for quick app launching, and more.
-
-### Development Tools
-
-- **[WAMP](https://www.wampserver.com/#download-wrapper)**
-   Local server environment (Windows, Apache, MySQL, PHP).
-
-### Media Tools
-
-- **[DigiCamControl](http://digicamcontrol.com/download)**
-   Control and automate DSLR cameras from Windows.
-- **[DigiKam](https://www.digikam.org/)**  
-   A cross-platform, open-source photo management application packed with advanced editing features. Ideal for organizing large image libraries and performing detailed photo touch-ups. 
-- **[MP3Tag](https://www.mp3tag.de/en/download.html)**
-   Tag editor for music files.
-- **[MakeMKV](https://www.makemkv.com/)**
-   Rip DVDs/Blu-rays to MKV files.
-- **[NAPS2 (Not Another PDF Scanner 2)](https://www.naps2.com/)**  
-   A free and open-source document scanning app for Windows that supports flatbed and feeder scanners, OCR, and direct PDF export.
-- **[Stirling PDF](https://www.stirling.com/)**  
-   A powerful self-hosted PDF toolbox offering dozens of features like merging, splitting, OCR, compression, conversion, signing, and editing—all running locally for better privacy and control. Perfect for homelabs and Docker setups. 
-
-### Image Tools
-
-- **[Converseen](https://converseen.fasterland.net/)**
-  A cross platform Batch Image Converter and Resizer Tool
-- **[ID Photo Studio](https://www.kcsoftwares.com/?idps)**
-  Easy ID-photo creation.
-- **[Image Resizer](https://www.bricelam.net/ImageResizer/)**
-  Batch resize images with Explorer integration.
-- [**Upscayl**](https://github.com/upscayl/upscayl)
-  A free and open source AI Image Upscaler App
-
-### Text & Diagram Editors
-
-- **[Typora](https://typora.io/)**
-  A clean Markdown editor with live preview (not free, but great UX).
-
----
----
-
-## Mac Utilities
-
-- **[EtreCheck](https://www.etrecheck.com/fr/index.html)**
-   Comprehensive diagnostic and troubleshooting tool for macOS.
-   
-- **[Silent Knight](https://eclecticlight.co/lockrattler-systhist/)**    
-  A macOS security and system integrity checker from Eclectic Light. 
-  
-- **[Coconut Battery](https://www.coconut-flavour.com/coconutbattery/)**    
-  Monitors the health of your Mac’s battery (and iOS devices when plugged in).
-  
-- **[Homebrew](https://brew.sh/)** 
-  Homebrew installs [the stuff you need](https://formulae.brew.sh/formula/) that Apple (or your Linux system) didn’t.
-  
-   
-
----
----
-
-## Recovery & Diagnostics Live CDs
-
-When your system is on the brink, these might just save your day!
-
-- **[MediCat](https://gbatemp.net/threads/medicat-usb-a-multiboot-linux-usb-for-pc-repair.361577/)**
-   A multiboot USB solution.
-- **[Malwarebytes](https://fr.malwarebytes.com/mwb-download/thankyou/)**
-   Detect and remove malware.
-- **[Hiren’s BootCD PE (UEFI)](https://www.hirensbootcd.org/)**
-- **[Hiren’s BootCD 15.2 (Legacy BIOS)](https://www.hirensbootcd.org/hbcd-v152/)**
-- **[WinPE 11-10 Sergei Strelec](https://sergeistrelec.name/)**
-
----
----
-
-
-## Online Tools
-
-### Web Server Tools
-
-- **[Cipher List](https://cipherlist.eu/)**
-   Best practices for SSL/TLS ciphers on Apache/Nginx/Lighttpd.
-- **[EcoIndex](http://www.ecoindex.fr/)**
-   Measures the eco-score of a webpage (environmental impact).
-- **[NginxConfig](https://www.digitalocean.com/community/tools/nginx)**
-   Easily generate an Nginx configuration.
-
-### Development & Graphic tools 
-
-- [**HueMint**](https://huemint.com/)
-  AI-driven color palette generator that helps you create harmonious color schemes for web design, branding, or any creative project.
-- **[IT Tools](https://it-tools.tech/)**  
-  An all-in-one suite of online utilities (e.g., JSON formatting, hashing, encryption) for quick troubleshooting and data manipulation.
-- **[Composerize](https://www.composerize.com/)**  
-  Instantly convert Docker CLI commands into Docker Compose configurations—perfect for simplifying your container setups.
-
-
-
-### Text & Diagram Editors
-
-- **[Diagrams.net (formerly Draw.io)](https://app.diagrams.net/)**
-  Create flowcharts, diagrams, and more in your browser.
-
-### Mailing Tools
-
-- **[Email Blacklist Tester (Unspam mail)](https://unspam.email/)**
-  A service that let you send a mail to their address and see the result of your mail infrastructure (Domain and mail body check)
-- **[Email Blacklist Tester (Mail Tester)](https://www.mail-tester.com/)**
-   Check your domain/mail reputation.
-
-### Image Tools
-
-- **[BRIAA's AI-Powered Background Removal](https://huggingface.co/spaces/briaai/BRIA-RMBG-1.4)**
-   Drop in an image, get a crisp cut-out.
-- **[QuickPic](https://quickpic.t3.gg/)**  
-   A lightweight, browser-based image toolbox that includes:
-   - **SVG to PNG Converter**  
-   - **Square Image Generator**  
-   - **Corner Rounder** : Perfect for quick, on-the-fly image editing and conversions.
-
-### Online Viewer Tools
-
-- **[Online JSON Viewer](https://jsonformatter.org/json-parser)**
-- **[Online XML Viewer](https://codebeautify.org/xmlviewer)**
-
-### Other Online Services
-
-- **[Have I Been Pwned](https://haveibeenpwned.com/)**
-- **[Deseat.me](https://www.deseat.me/)**
-   Helps clean up old accounts you might’ve forgotten.
-- **[Draw.io (again, it’s that good)](https://app.diagrams.net/)**
-- **[Online PC Builder (PCPartPicker)](https://pcpartpicker.com/list/)**
-
-### Status Pages
-
-- **[OVH Planned Work](http://travaux.ovh.net/)**
-- **[Google Apps Status](https://www.google.com/appsstatus#hl=fr&v=status)**
-- **[Apple System Status](https://www.apple.com/support/systemstatus/)**
-
-------
-
-## Cheatsheets
-
-- **[spf-dkim-dmarc-simplified](https://github.com/nicanorflavier/spf-dkim-dmarc-simplified)**
-   A Simple Guide to understand SPF, DKIM, and DMARC
-- **[Devhints](https://devhints.io/)**
-   Massive collection of quick references ([Bash](https://devhints.io/bash), [MySQL](https://devhints.io/mysql), etc.).
-- **[Git Guide](http://rogerdudler.github.io/git-guide/)**
-
-------
-
-## Open Self-Hosted Projects
-
-- **[Wolweb (Wake-on-LAN)](https://github.com/unikiteam/wolweb)**
-   Turn your devices on remotely using a web interface.
-
-------
-
-## Docker Projects
-
-- **[Wolweb Docker Image](https://github.com/unikiteam/wolweb)**
-   Run Wolweb in a container.
-
-*(More Docker ideas coming soon!)*
-
-------
-
-## Proxmox Goodies
-
-- **[Proxmox VE Community Scripts](https://community-scripts.github.io/ProxmoxVE/)**
-   An awesome collection of scripts to enhance your Proxmox workflow.
-
-*(Stay tuned for more Proxmox tips!)*
-
-------
-
-## Android
-
-- **[Vanced](https://vancedapp.com/)**
-   A modded YouTube client with extra features ([GitHub](https://github.com/YTVanced/)).
-- **[Online SMS Backup Viewer](https://mattj.io/sms-backup-reader-2/main)**
-   View backups from [SMS Backup & Restore](https://play.google.com/store/apps/details?id=com.riteshsahu.SMSBackupRestore) online.
-
-------
-
-## More at These Links
-
-- **[NirSoft Windows Tools](https://www.nirsoft.net/)**
-- **[Framasoft](https://framasoft.org/)**
-- **[KC Software Windows Tools](https://www.kcsoftwares.com/)**
-- **[Portable Apps.io](https://portapps.io/)**
-
-------
-
-## TO Add
-
-- Self Host section 
-  - Community scripts & [proxmox Guide](https://www.derekseaman.com/2023/10/home-assistant-proxmox-ve-8-0-quick-start-guide-2.html)
-  - Cosmos 
-  - ZimaOS 
-- https://digital-defense.io/
-- OpenWRT ToH
-- Install Kali on WSL using [Win-Kex](https://www.kali.org/docs/wsl/win-kex/)
-- **MkvMake**
-- [**System Examiner**](https://systemexaminer.com/)
-- **VirtualBox**
-- marktext
-- **Unified Remote**
-- **Mi Home Toolkit**
-  A companion tool for Xiaomi’s Mi Home ecosystem—used to manage and automate smart home devices, firmware updates, and some Tweaking.
-- **winget-autoupdate**
-  A utility to automatically update packages installed via Windows Package Manager (winget). Can be scheduled to run via Task Scheduler.
-- **UpdateHub**
-  A centralized update solution that helps manage and deploy software updates across Windows systems.
-- Feel free to suggest any additions or open issues/PRs for improvements!
-
-**Happy exploring!**
+> A practical, personal collection of tools and procedures for repairs,
+> diagnostics, system administration, and everyday technical work.
+
+SwissArmyKnife helps you answer two questions quickly: **what can solve this
+problem?** and **how did I do this last time?** The repository is public so
+friends and other technicians can reuse the notes and suggest improvements.
+
+## Find by task
+
+- **[Diagnose hardware](windows/README.md#hardware-diagnostics-and-testing)** —
+  Inspect storage health, temperatures, performance, and system information.
+- **[Recover or reinstall a system](windows/README.md#recovery-and-repair-media)** —
+  Prepare bootable media, clone disks, and automate Windows installation.
+- **[Troubleshoot a network](windows/README.md#network-tools)** — Discover
+  devices, inspect traffic, test ports, and manage remote connections.
+- **[Configure network infrastructure](networking/README.md)** — Follow UniFi
+  and other networking procedures.
+- **[Install and maintain applications](windows/README.md#application-management)** —
+  Install, update, remove, and clean up Windows software.
+- **[Automate a home](home-assistant/README.md)** — Find Home Assistant setup,
+  dashboard, integration, and customization notes.
+- **[Find an online utility](web/README.md)** — Use quick browser-based tools
+  for development, mail, images, data, and status checks.
+- **[Run a self-hosted service](self-hosted/README.md)** — Discover Docker,
+  Proxmox, and locally hosted projects.
+
+## Browse by platform or domain
+
+- [Windows](windows/README.md)
+- [macOS](macos/README.md)
+- [Linux](linux/README.md)
+- [Android](android/README.md)
+- [Networking and UniFi](networking/README.md)
+- [Home Assistant](home-assistant/README.md)
+- [Web tools](web/README.md)
+- [Self-hosted projects](self-hosted/README.md)
+
+## Add or improve an entry
+
+Save unclassified discoveries in [INBOX.md](INBOX.md). Before adding a
+published entry or procedure, read [CONTRIBUTING.md](CONTRIBUTING.md) for the
+short formatting and classification rules.
+
+Tools that are no longer recommended are retained in the
+[archive](archive/README.md) with context and possible replacements.

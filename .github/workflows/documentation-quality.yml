@@ -1,0 +1,62 @@
+name: Documentation quality
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * 0"
+
+permissions:
+  contents: read
+
+jobs:
+  markdown:
+    if: github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Lint Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v24
+        with:
+          globs: "**/*.md"
+
+  internal-links:
+    if: github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Check relative links, fragments, and image paths
+        uses: lycheeverse/lychee-action@v2.9.0
+        with:
+          args: >-
+            --offline
+            --include-fragments
+            --root-dir .
+            --no-progress
+            './**/*.md'
+
+  external-links:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Check external links
+        uses: lycheeverse/lychee-action@v2.9.0
+        with:
+          args: >-
+            --cache
+            --max-retries 3
+            --timeout 30
+            --no-progress
+            './**/*.md'
+

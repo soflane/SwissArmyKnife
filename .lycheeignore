@@ -1,0 +1,4 @@
+# The official MakeMKV site is intermittently unavailable to automated clients
+# and has returned TLS/Cloudflare errors while remaining the canonical source.
+^https://www\.makemkv\.com/$
+
