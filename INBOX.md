@@ -19,8 +19,6 @@ category, merge duplicates, or archive rejected items.
 - **VirtualBox** — Add a concise virtualization entry after checking the preferred official link. `Windows` `macOS` `Linux`
 - **MarkText** — Review as an open-source Markdown editor. `Desktop` `Markdown`
 - **Unified Remote** — Review as a remote-control application. `Desktop` `Mobile`
-- **Mi Home Toolkit** — Verify the exact project and document its Xiaomi device management and tweaking use cases. `Windows` `Smart home`
-- **winget-autoupdate** — Review automatic updates for winget-managed applications. `Windows` `Package management`
 - **UpdateHub** — Identify and review the intended centralized update tool. `Windows` `Updates`
 
 ## Security and diagnostics
