@@ -99,6 +99,10 @@
 - **[CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark/)** —
   Benchmark sequential and random storage performance.  
   `Windows` `Storage` `Benchmark`
+- **[TMOG](https://tmog.org/)** — Monitor processes, CPU, memory, storage,
+  network activity, energy use, and temperatures from a dense native system
+  console.\
+  `Windows` `macOS` `Linux` `System monitoring` `Public beta`
 - **[System Examiner](https://systemexaminer.com/)** — Generate a detailed
   Windows system report for diagnostics and remote support.  
   `Windows` `Inventory` `Diagnostics`
@@ -109,7 +113,11 @@
   and remove packages from winget, Chocolatey, Scoop, and other managers through
   one interface. A reusable bundle is available in
   [`configs/unigetui-bundles`](../configs/unigetui-bundles/).  
-  `Windows` `Package management` `Open source`
+  `Windows` `Package management` `Open source` `Favorite`
+- **[Winget-AutoUpdate](https://github.com/Romanitho/Winget-AutoUpdate)** — Run
+  scheduled winget application updates in the system context, notify connected
+  users, and control deployments with allowlists or blocklists.\
+  `Windows` `Package management` `Automation` `Open source`
 - **[Ninite](https://ninite.com/)** — Install or update a selection of common
   Windows applications without individual installers.  
   `Windows` `Deployment`
