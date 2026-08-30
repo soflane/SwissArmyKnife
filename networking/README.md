@@ -8,5 +8,5 @@
   and review controlled access to a UniFi management interface.  
   `UniFi` `Routing` `DDNS`
 
-Windows-based scanners, packet analyzers, and remote clients are cataloged in
-[Windows network tools](../windows/README.md#network-tools).
+Scanners, packet analyzers, and remote clients are cataloged under
+[network tools](../tools/README.md#network-tools) with platform tags.

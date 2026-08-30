@@ -1,22 +1,17 @@
-# macOS tools
+# macOS
 
-> Utilities for diagnosing, maintaining, and extending macOS systems.
+> macOS-specific shortcuts into the function-based tool catalog.
 
-## Diagnostics and maintenance
+Applications are cataloged once in [Tools by function](../tools/README.md).
+Use the `macOS` tags to confirm compatibility.
 
-- **[EtreCheck](https://www.etrecheck.com/)** — Generate a detailed macOS
-  diagnostic report for troubleshooting performance, software, and hardware
-  problems.  
-  `macOS` `Diagnostics`
-- **[SilentKnight](https://eclecticlight.co/lockrattler-systhist/)** — Check
-  macOS security data, firmware, and system integrity information.  
-  `macOS` `Security`
-- **[coconutBattery](https://www.coconut-flavour.com/coconutbattery/)** — Inspect
-  battery health and charge history for a Mac and connected iOS devices.  
-  `macOS` `Hardware`
+## Find macOS tools
 
-## Package management
-
-- **[Homebrew](https://brew.sh/)** — Install command-line tools and desktop
-  applications that are not included with macOS.  
-  `macOS` `Linux` `Package management` `Open source`
+- [Security and system integrity](../tools/README.md#security-tools)
+- [Storage, backup, and bootable media](../tools/README.md#storage-backup-and-bootable-media)
+- [Hardware diagnostics and monitoring](../tools/README.md#hardware-diagnostics-and-testing)
+- [Application and package management](../tools/README.md#application-management)
+- [Smart home and media devices](../tools/README.md#smart-home-and-media-devices)
+- [Media and documents](../tools/README.md#media-and-document-tools)
+- [Images](../tools/README.md#image-tools)
+- [Text and Markdown](../tools/README.md#text-and-diagram-editors)

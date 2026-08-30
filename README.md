@@ -9,25 +9,28 @@ friends and other technicians can reuse the notes and suggest improvements.
 
 ## Find by task
 
-- **[Diagnose hardware](windows/README.md#hardware-diagnostics-and-testing)** —
+- **[Diagnose hardware](tools/README.md#hardware-diagnostics-and-testing)** —
   Inspect storage health, temperatures, performance, and system information.
-- **[Recover or reinstall a system](windows/README.md#recovery-and-repair-media)** —
+- **[Recover or reinstall a system](tools/README.md#storage-backup-and-bootable-media)** —
   Prepare bootable media, clone disks, and automate Windows installation.
-- **[Troubleshoot a network](windows/README.md#network-tools)** — Discover
+- **[Troubleshoot a network](tools/README.md#network-tools)** — Discover
   devices, inspect traffic, test ports, and manage remote connections.
 - **[Configure network infrastructure](networking/README.md)** — Follow UniFi
   and other networking procedures.
-- **[Install and maintain applications](windows/README.md#application-management)** —
-  Install, update, remove, and clean up Windows software.
+- **[Install and maintain applications](tools/README.md#application-management)** —
+  Install, update, remove, and clean up desktop software.
 - **[Automate a home](home-assistant/README.md)** — Find Home Assistant setup,
   dashboard, integration, and customization notes.
+- **[Manage smart devices](tools/README.md#smart-home-and-media-devices)** —
+  Configure Xiaomi devices and maintain Android TV hardware.
 - **[Find an online utility](web/README.md)** — Use quick browser-based tools
   for development, mail, images, data, and status checks.
 - **[Run a self-hosted service](self-hosted/README.md)** — Discover Docker,
   Proxmox, and locally hosted projects.
 
-## Browse by platform or domain
+## Browse the catalog
 
+- [All tools by function](tools/README.md)
 - [Windows](windows/README.md)
 - [macOS](macos/README.md)
 - [Linux](linux/README.md)

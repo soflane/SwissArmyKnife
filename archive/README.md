@@ -10,7 +10,7 @@ safer or better-maintained replacements.
 - **[CCleaner](https://www.ccleaner.com/ccleaner/download)** — Previously
   listed as a cleanup utility; removed from the recommended catalog because of
   advertising and bundled-software concerns. Use
-  [Bulk Crap Uninstaller](../windows/README.md#application-management) for
+  [Bulk Crap Uninstaller](../tools/README.md#application-management) for
   uninstall cleanup or BleachBit for temporary-file cleanup.  
   `Windows` `Archived`
 
@@ -36,7 +36,7 @@ safer or better-maintained replacements.
 
 - **WindowGrid** — Its original website is unavailable. Use the window-layout
   features in
-  [Microsoft PowerToys](../windows/README.md#customization-tools) instead.  
+  [Microsoft PowerToys](../tools/README.md#customization-tools) instead.\
   `Windows` `Productivity` `Archived`
 - **Airytec Switch Off** — The last published version predates current Windows
   releases and current compatibility is unclear. Use Windows Task Scheduler or

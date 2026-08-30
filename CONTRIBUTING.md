@@ -7,13 +7,15 @@ descriptions.
 ## Capture first, classify later
 
 If an item has not been reviewed, add it to [INBOX.md](INBOX.md) with a link,
-a short reason for saving it, and one or two suggested tags. A reviewed item
-must live in exactly one category index.
+a short reason for saving it, and one or two suggested tags. A reviewed
+application must live in exactly one functional section of
+[the tool catalog](tools/README.md). Platform pages link to these sections and
+must not duplicate application descriptions.
 
 The content flow is:
 
 ```text
-INBOX.md -> category README -> archive/README.md
+INBOX.md -> tools/README.md or a domain guide -> archive/README.md
 ```
 
 ## Add a tool
@@ -29,8 +31,11 @@ Use a compact, outcome-focused entry:
 - Link to the official website or repository whenever possible.
 - Start the description with the practical use, not a marketing claim.
 - Include at least one platform or domain tag.
-- Avoid duplicating an entry across categories; link to its canonical entry
-  when another page needs to mention it.
+- Choose the functional section from the application's main use, not from its
+  operating system.
+- List every supported platform as a tag, especially for cross-platform tools.
+- Avoid duplicating an entry across platform or domain pages; link to its
+  canonical functional section when another page needs to mention it.
 - Prefer explicit labels such as `Open source`, `Free`, or `Commercial` only
   when the licensing model has been checked.
 
@@ -70,7 +75,7 @@ replacement when one exists. Do not silently delete useful history.
 
 ## Before submitting
 
-- Check that the entry exists in one published index only.
+- Check that an application exists in one functional section only.
 - Open every new relative link and image path.
 - Run the Markdown and link checks, or confirm that the GitHub Actions checks
   pass on the pull request.

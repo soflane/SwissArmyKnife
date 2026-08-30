@@ -1,20 +1,13 @@
-# Android tools and procedures
+# Android
 
-> Utilities for Android support, data access, and device workflows.
+> Android and Android TV shortcuts into the function-based tool catalog.
 
-## Backup viewers
+Applications are cataloged once in [Tools by function](../tools/README.md).
+Use the `Android` or `Android TV` tags to confirm compatibility.
 
-- **[SMS Backup Reader](https://mattj.io/sms-backup-reader/)** — View XML
-  backups created by
-  [SMS Backup & Restore](https://play.google.com/store/apps/details?id=com.riteshsahu.SMSBackupRestore)
-  in a readable browser interface.  
-  `Android` `Backup` `Web`
+## Find Android tools
 
-## Android TV maintenance
-
-- **[Shield Optimizer](https://github.com/bryanroscoe/shield_optimizer)** —
-  Inspect Android TV health, disable unwanted packages, switch launchers,
-  sideload APKs, and apply reversible ADB-based tweaks from a desktop app.\
-  `Android TV` `Nvidia Shield` `Windows` `macOS` `Linux` `Open source` `Public beta`
+- [Backup and data viewers](../tools/README.md#storage-backup-and-bootable-media)
+- [Android TV and smart-device utilities](../tools/README.md#smart-home-and-media-devices)
 
 Unreviewed Android procedure ideas are kept in [INBOX.md](../INBOX.md).
