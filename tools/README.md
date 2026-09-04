@@ -121,6 +121,10 @@
 - **[System Examiner](https://systemexaminer.com/)** — Generate a detailed
   Windows system report for diagnostics and remote support.  
   `Windows` `Inventory` `Diagnostics`
+- **[WhoCrashed](https://whocrashed.net/)** — Analyze Windows crash dumps and
+  identify the drivers likely responsible for blue screens and unexpected
+  reboots.  
+  `Windows` `Crash analysis` `Diagnostics`
 
 ## Application management
 
