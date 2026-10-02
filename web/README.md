@@ -50,6 +50,9 @@
 - **[QuickPic](https://quickpic.t3.gg/)** — Convert SVG files, square images,
   and round corners with small browser-based tools.  
   `Web` `Images`
+- **[MockUPhone](https://mockuphone.com/)** — Place app screenshots inside
+  mobile-device mockups for presentations and app-store visuals.
+  `Web` `Images` `Mobile design`
 
 ## Data viewers
 
@@ -65,6 +68,17 @@
 - **[Have I Been Pwned](https://haveibeenpwned.com/)** — Check whether an email
   address or domain appears in known data breaches.  
   `Web` `Security` `Breach monitoring`
+
+## Security references
+
+- **[LOLDrivers](https://github.com/magicsword-io/LOLDrivers)** — Identify
+  vulnerable and malicious Windows drivers using a catalog of driver hashes
+  and detection resources.\
+  `Reference` `Windows` `Security` `Drivers`
+- **[LOLRMM](https://github.com/magicsword-io/LOLRMM)** — Review remote
+  monitoring and management tools that can be abused by attackers, including
+  artifacts and Sigma rules for threat hunting.\
+  `Reference` `Security` `Remote administration` `Detection`
 
 ## Hardware planning
 
@@ -86,6 +100,10 @@
 
 ## Cheatsheets and directories
 
+- **[Public APIs](https://github.com/public-apis/public-apis)** — Find public
+  APIs by category and compare authentication, HTTPS, and CORS requirements
+  when planning an integration.\
+  `Directory` `Development` `API`
 - **[SPF, DKIM, and DMARC simplified](https://github.com/nicanorflavier/spf-dkim-dmarc-simplified)** —
   Understand the purpose and interaction of common email-authentication records.  
   `Reference` `Email` `DNS`

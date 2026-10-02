@@ -25,6 +25,8 @@ friends and other technicians can reuse the notes and suggest improvements.
   Configure Xiaomi devices and maintain Android TV hardware.
 - **[Find an online utility](web/README.md)** — Use quick browser-based tools
   for development, mail, images, data, and status checks.
+- **[Work with AI tools](ai/README.md)** — Reduce coding-agent token usage
+  and connect assistants to other applications.
 - **[Run a self-hosted service](self-hosted/README.md)** — Discover Docker,
   Proxmox, and locally hosted projects.
 
@@ -38,6 +40,7 @@ friends and other technicians can reuse the notes and suggest improvements.
 - [Networking and UniFi](networking/README.md)
 - [Home Assistant](home-assistant/README.md)
 - [Web tools](web/README.md)
+- [AI tools](ai/README.md)
 - [Self-hosted projects](self-hosted/README.md)
 
 ## Add or improve an entry

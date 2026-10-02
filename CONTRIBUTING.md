@@ -9,8 +9,10 @@ descriptions.
 If an item has not been reviewed, add it to [INBOX.md](INBOX.md) with a link,
 a short reason for saving it, and one or two suggested tags. A reviewed
 application must live in exactly one functional section of
-[the tool catalog](tools/README.md). Platform pages link to these sections and
-must not duplicate application descriptions.
+[the tool catalog](tools/README.md) or a dedicated domain catalog, such as
+[AI tools](ai/README.md) or [self-hosted projects](self-hosted/README.md).
+Platform pages link to these sections and must not duplicate application
+descriptions.
 
 The content flow is:
 

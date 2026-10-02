@@ -9,6 +9,7 @@ Use the `Windows` tags to confirm compatibility.
 ## Find Windows tools
 
 - [Security and privacy](../tools/README.md#security-tools)
+- [Driver and remote-management threat references](../web/README.md#security-references)
 - [Office and account support](../tools/README.md#office-and-account-tools)
 - [Networking and remote administration](../tools/README.md#network-tools)
 - [Storage, backup, and bootable media](../tools/README.md#storage-backup-and-bootable-media)
@@ -28,3 +29,10 @@ Use the `Windows` tags to confirm compatibility.
 - **[Create an unattended Windows installation](unattended-install.md)** — Add
   an answer file and optional custom files to Windows installation media.\
   `Windows` `Deployment`
+
+## Administration references
+
+- **[Event Forwarding Guidance](https://github.com/nsacyber/Event-Forwarding-Guidance)** —
+  Plan centralized collection of security-relevant Windows event logs using
+  NSA guidance, recommended events, subscription XML, and supporting scripts.\
+  `Windows` `Security` `Event logs` `WEF` `Reference`

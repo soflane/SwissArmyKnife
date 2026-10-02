@@ -3,6 +3,9 @@
 > A canonical catalog of desktop and device utilities, grouped by what they do
 > and tagged with every supported platform.
 
+For specialized resources, browse [AI tools](../ai/README.md) and
+[self-hosted projects](../self-hosted/README.md).
+
 ## Security tools
 
 - **[Harden Windows Security](https://github.com/HotCakeX/Harden-Windows-Security)** —
