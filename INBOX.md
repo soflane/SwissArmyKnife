@@ -21,6 +21,10 @@ category, merge duplicates, or archive rejected items.
 - **Unified Remote** — Review as a remote-control application. `Desktop` `Mobile`
 - **UpdateHub** — Identify and review the intended centralized update tool. `Windows` `Updates`
 
+## Web and browser utilities
+
+- [ShowPro Image Thumbnail Generator](https://showprosoftware.com/tools/image-thumbnail-generator) — Create 100×100, 200×200, and 400×400 center-cropped PNG thumbnails from a JPEG, PNG, or WebP image and download them together in one ZIP. `Web` `Images`
+
 ## Security and diagnostics
 
 - [Digital Defense](https://digital-defense.io/) — Review the service and decide whether it belongs under security or diagnostics. `Security`
