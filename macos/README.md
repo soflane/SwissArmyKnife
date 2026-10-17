@@ -13,5 +13,6 @@ Use the `macOS` tags to confirm compatibility.
 - [Application and package management](../tools/README.md#application-management)
 - [Smart home and media devices](../tools/README.md#smart-home-and-media-devices)
 - [Media and documents](../tools/README.md#media-and-document-tools)
+- [Audio transcription on Apple Silicon](../ai/README.md#audio-transcription)
 - [Images](../tools/README.md#image-tools)
 - [Text and Markdown](../tools/README.md#text-and-diagram-editors)

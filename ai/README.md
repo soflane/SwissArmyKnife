@@ -20,6 +20,14 @@
   organizations, and attachments through MCP.\
   `AI` `MCP` `Zammad` `Help desk`
 
+## Audio transcription
+
+- **[Whispermlx ASR Service](https://github.com/KalebJS/whispermlx-asr-service)** —
+  Transcribe audio locally on Apple Silicon Macs with Whisper accelerated by
+  MLX and Metal, through an API with optional speaker identification and
+  subtitle export.\
+  `macOS` `Apple Silicon` `AI` `Audio transcription` `Self-hosted` `API`
+
 ## Image tools
 
 - [Local image upscaling](../tools/README.md#image-tools) — Find Upscayl in
